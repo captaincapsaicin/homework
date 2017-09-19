@@ -31,7 +31,6 @@ def build_mlp(
     #
     # Hint: use tf.layers.dense
     #========================================================================================#
-
     with tf.variable_scope(scope):
         output = input_placeholder
         for i in range(n_layers):
@@ -324,8 +323,23 @@ def train_PG(exp_name='',
         #
         #====================================================================================#
 
-        # YOUR_CODE_HERE
-        q_n = TODO
+        if reward_to_go:
+            q_n = []
+            for path in paths:
+                rewards = path['reward']
+                n_steps = len(rewards)
+                # reward of remaining steps in trajectory
+                q_tau = [np.sum(rewards[i:]) for i in range(n_steps)]
+                q_tau = np.array(q_tau)
+                q_n.append(q_tau)
+        else:
+            q_n = []
+            for path in paths:
+                rewards = path['reward']
+                n_steps = len(rewards)
+                # the same reward for all steps in the path
+                q_tau = np.array([np.sum(rewards)]*n_steps)
+                q_n.append(q_tau)
 
         #====================================================================================#
         #                           ----------SECTION 5----------
