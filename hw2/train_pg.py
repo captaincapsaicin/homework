@@ -406,13 +406,18 @@ def train_PG(exp_name='',
         # and after an update, and then log them below.
 
         # YOUR_CODE_HERE
-
+        feed_dict = {sy_ob_no: ob_no, sy_ac_na: ac_na, sy_adv_n: adv_n}
+        loss_before = sess.run(loss, feed_dict=feed_dict)
+        update_op.run(feed_dict=feed_dict)
+        loss_after = sess.run(loss, feed_dict=feed_dict)
 
         # Log diagnostics
         returns = [path["reward"].sum() for path in paths]
         ep_lengths = [pathlength(path) for path in paths]
         logz.log_tabular("Time", time.time() - start)
         logz.log_tabular("Iteration", itr)
+        logz.log_tabular("Loss Before", loss_before)
+        logz.log_tabular("Loss After", loss_after)
         logz.log_tabular("AverageReturn", np.mean(returns))
         logz.log_tabular("StdReturn", np.std(returns))
         logz.log_tabular("MaxReturn", np.max(returns))
