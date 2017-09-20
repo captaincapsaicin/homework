@@ -174,11 +174,11 @@ def train_PG(exp_name='',
 
     if discrete:
         # YOUR_CODE_HERE
-        sy_logits_na = tf.log(build_mlp(sy_ob_no, ac_dim, 'discrete_scope'))
+        sy_logits_na = build_mlp(sy_ob_no, ac_dim, 'discrete_scope')
         # This sampled action is used in the training step below
-        sy_sampled_ac = tf.multinomial(sy_logits_na, 1) # Hint: Use the tf.multinomial op
-        # TODO check if need tf.squeeze(tensor, axis=1)
-        sy_logprob_n = tf.matmul(sy_ac_na, sy_logits_na, transpose_b=True)
+        sy_sampled_ac = tf.squeeze(tf.multinomial(sy_logits_na, 1), axis=1) # Hint: Use the tf.multinomial op
+        one_hot_na = tf.one_hot(sy_ac_na, ac_dim)
+        sy_logprob_n = tf.matmul(one_hot_na, sy_logits_na, transpose_b=True)
 
     else:
         # YOUR_CODE_HERE
@@ -327,24 +327,23 @@ def train_PG(exp_name='',
         # like the 'ob_no' and 'ac_na' above.
         #
         #====================================================================================#
-        # TODO Nthomas - check these...
         if reward_to_go:
             q_n = []
             for path in paths:
-                rewards = path['reward']
-                n_steps = len(rewards)
+                path_rewards = path['reward']
+                n_steps = len(path_rewards)
                 # reward of remaining steps in trajectory
-                q_tau = [np.sum(rewards[i:]) for i in range(n_steps)]
-                q_tau = np.array(q_tau)
-                q_n.append(q_tau)
+                q_tau = np.array([np.sum(path_rewards[i:]) for i in range(n_steps)])
+                q_n.extend(q_tau)
         else:
             q_n = []
             for path in paths:
-                rewards = path['reward']
-                n_steps = len(rewards)
+                path_rewards = path['reward']
+                n_steps = len(path_rewards)
                 # the same reward for all steps in the path
-                q_tau = np.array([np.sum(rewards)]*n_steps)
-                q_n.append(q_tau)
+                q_tau = np.array([np.sum(path_rewards)]*n_steps)
+                q_n.extend(q_tau)
+        q_n = np.array(q_n)
 
         #====================================================================================#
         #                           ----------SECTION 5----------
@@ -374,7 +373,7 @@ def train_PG(exp_name='',
             # On the next line, implement a trick which is known empirically to reduce variance
             # in policy gradient methods: normalize adv_n to have mean zero and std=1.
             # YOUR_CODE_HERE
-            pass
+            adv_n = tf.nn.l2_normalize(adv_n)
 
 
         #====================================================================================#
