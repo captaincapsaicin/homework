@@ -178,8 +178,7 @@ def train_PG(exp_name='',
         # This sampled action is used in the training step below
         sy_sampled_ac = tf.squeeze(tf.multinomial(sy_logits_na, 1), axis=1) # Hint: Use the tf.multinomial op
         one_hot_na = tf.one_hot(sy_ac_na, ac_dim)
-        sy_logprob_n = tf.matmul(one_hot_na, sy_logits_na, transpose_b=True)
-
+        sy_logprob_n = tf.matmul(one_hot_na, sy_logits_na, transpose_b=True) - tf.log(tf.reduce_sum(tf.exp(sy_logits_na)))
     else:
         # YOUR_CODE_HERE
         sy_mean = build_mlp(sy_ob_no, ac_dim, 'continuous_scope')
@@ -416,8 +415,6 @@ def train_PG(exp_name='',
         ep_lengths = [pathlength(path) for path in paths]
         logz.log_tabular("Time", time.time() - start)
         logz.log_tabular("Iteration", itr)
-        logz.log_tabular("Loss Before", loss_before)
-        logz.log_tabular("Loss After", loss_after)
         logz.log_tabular("AverageReturn", np.mean(returns))
         logz.log_tabular("StdReturn", np.std(returns))
         logz.log_tabular("MaxReturn", np.max(returns))
@@ -426,6 +423,8 @@ def train_PG(exp_name='',
         logz.log_tabular("EpLenStd", np.std(ep_lengths))
         logz.log_tabular("TimestepsThisBatch", timesteps_this_batch)
         logz.log_tabular("TimestepsSoFar", total_timesteps)
+        logz.log_tabular("Loss Before", loss_before)
+        logz.log_tabular("Loss After", loss_after)
         logz.dump_tabular()
         logz.pickle_tf_vars()
 
