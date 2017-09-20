@@ -130,7 +130,7 @@ def train_PG(exp_name='',
         sy_ac_na = tf.placeholder(shape=[None, ac_dim], name="ac", dtype=tf.float32)
 
     # Define a placeholder for advantages
-    sy_adv_n = TODO
+    sy_adv_n = tf.placeholder(shape=[None], name="adv", dtype=tf.float32)
 
 
     #========================================================================================#
@@ -174,17 +174,18 @@ def train_PG(exp_name='',
 
     if discrete:
         # YOUR_CODE_HERE
-        sy_logits_na = TODO
-        sy_sampled_ac = TODO # Hint: Use the tf.multinomial op
-        sy_logprob_n = TODO
+        sy_logits_na = tf.log(build_mlp(sy_ob_no, ac_dim, 'discrete_scope'))
+        # This sampled action is used in the training step below
+        sy_sampled_ac = tf.multinomial(sy_logits_na, 1) # Hint: Use the tf.multinomial op
+        sy_logprob_n = tf.matmul(sy_ac_na, sy_logits_na, transpose_b=True)
 
     else:
         # YOUR_CODE_HERE
-        sy_mean = TODO
-        sy_logstd = TODO # logstd should just be a trainable variable, not a network output.
-        sy_sampled_ac = TODO
-        sy_logprob_n = TODO  # Hint: Use the log probability under a multivariate gaussian.
-
+        sy_mean = build_mlp(sy_ob_no, ac_dim, 'continuous_scope')
+        sy_logstd = tf.get_variable(name='logstd', shape=[ac_dim], dtype=tf.float32) # logstd should just be a trainable variable, not a network output.
+        sy_cov = tf.exp(sy_logstd)**2
+        sy_sampled_ac = sy_mean + sy_cov * tf.random_normal([ac_dim])
+        sy_logprob_n = -(1/2) * (tf.reduce_sum(tf.log(sy_cov)) + (1/sy_cov)*(sy_ac_na - sy_mean)**2 + ac_dim*np.log(2*np.pi))  # Hint: Use the log probability under a multivariate gaussian.
 
 
     #========================================================================================#
@@ -322,7 +323,7 @@ def train_PG(exp_name='',
         # like the 'ob_no' and 'ac_na' above.
         #
         #====================================================================================#
-
+        # TODO Nthomas - check these...
         if reward_to_go:
             q_n = []
             for path in paths:
