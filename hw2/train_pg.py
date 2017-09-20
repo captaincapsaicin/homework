@@ -174,7 +174,7 @@ def train_PG(exp_name='',
 
     if discrete:
         # YOUR_CODE_HERE
-        sy_logits_na = build_mlp(sy_ob_no, ac_dim, 'discrete_scope')
+        sy_logits_na = build_mlp(sy_ob_no, ac_dim, 'discrete_scope', n_layers=n_layers, size=size)
         # This sampled action is used in the training step below
         sy_sampled_ac = tf.squeeze(tf.multinomial(sy_logits_na, 1), axis=1) # Hint: Use the tf.multinomial op
         one_hot_na = tf.one_hot(sy_ac_na, ac_dim)
