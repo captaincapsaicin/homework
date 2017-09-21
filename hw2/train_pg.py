@@ -328,9 +328,12 @@ def train_PG(exp_name='',
             q_n = []
             for path in paths:
                 path_rewards = path['reward']
-                n_steps = len(path_rewards)
-                # reward of remaining steps in trajectory
-                q_tau = np.array([np.sum(path_rewards[i:]) for i in range(n_steps)])
+                T = len(path_rewards)
+                q_tau = []
+                for t in range(T):
+                    # discounted reward of remaining steps in trajectory
+                    q_t = np.sum([gamma**(t_prime - t) * path_rewards[t_prime] for t_prime in range(t, T)])
+                    q_tau.append(q_t)
                 q_n.extend(q_tau)
         else:
             q_n = []
