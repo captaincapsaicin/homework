@@ -212,8 +212,9 @@ def train_PG(exp_name='',
                                 size=size))
         # Define placeholders for targets, a loss function and an update op for fitting a
         # neural network baseline. These will be used to fit the neural network baseline.
-        # YOUR_CODE_HERE
-        baseline_update_op = TODO
+        sy_true_baseline_n = tf.placeholder(shape=[None], name="true_baseline", dtype=tf.float32)
+        baseline_loss = tf.nn.l2_loss(baseline_prediction - sy_true_baseline_n)
+        baseline_update_op = tf.train.AdamOptimizer(learning_rate).minimize(baseline_loss)
 
 
     #========================================================================================#
@@ -355,8 +356,11 @@ def train_PG(exp_name='',
             # Hint #bl1: rescale the output from the nn_baseline to match the statistics
             # (mean and std) of the current or previous batch of Q-values. (Goes with Hint
             # #bl2 below.)
-
-            b_n = TODO
+            b_n = sess.run(baseline_prediction, feed_dict={sy_ob_no: ob_no})
+            # Renormalize to match statistics of Q-values
+            shift = np.mean(b_n) - np.mean(q_n)
+            scaling = np.std(b_n)/np.std(q_n)
+            b_n = (b_n - shift) / scaling
             adv_n = q_n - b_n
         else:
             adv_n = q_n.copy()
@@ -389,7 +393,8 @@ def train_PG(exp_name='',
             # targets to have mean zero and std=1. (Goes with Hint #bl1 above.)
 
             # YOUR_CODE_HERE
-            pass
+            rescaled_target_q_n = (q_n - np.mean(q_n))/np.std(q_n)
+            b_n = baseline_update_op.run(feed_dict={sy_true_baseline_n: rescaled_target_q_n, sy_ob_no: ob_no})
 
         #====================================================================================#
         #                           ----------SECTION 4----------
