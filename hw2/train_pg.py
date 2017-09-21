@@ -176,7 +176,7 @@ def train_PG(exp_name='',
         # This sampled action is used in the training step below
         sy_sampled_ac = tf.squeeze(tf.multinomial(sy_logits_na, 1), axis=1) # Hint: Use the tf.multinomial op
         one_hot_na = tf.one_hot(sy_ac_na, ac_dim)
-        sy_logprob_n = tf.matmul(one_hot_na, sy_logits_na, transpose_b=True) - tf.log(tf.reduce_sum(tf.exp(sy_logits_na), axis=1))
+        sy_logprob_n = tf.diag_part(tf.matmul(one_hot_na, sy_logits_na, transpose_b=True)) - tf.log(tf.reduce_sum(tf.exp(sy_logits_na), axis=1))
     else:
         # YOUR_CODE_HERE
         sy_mean = build_mlp(sy_ob_no, ac_dim, 'continuous_scope')
