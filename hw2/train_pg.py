@@ -179,13 +179,13 @@ def train_PG(exp_name='',
         sy_logprob_n = tf.diag_part(tf.matmul(one_hot_na, sy_logits_na, transpose_b=True)) - tf.log(tf.reduce_sum(tf.exp(sy_logits_na), axis=1))
     else:
         # YOUR_CODE_HERE
-        sy_mean = build_mlp(sy_ob_no, ac_dim, 'continuous_scope')
+        sy_mean_ac = build_mlp(sy_ob_no, ac_dim, 'continuous_scope')
         # logstd should just be a trainable variable, not a network output.
         sy_logstd = tf.get_variable(name='logstd', shape=[ac_dim], dtype=tf.float32)
-        sy_cov = tf.exp(sy_logstd)**2
-        sy_sampled_ac = sy_mean + sy_cov * tf.random_normal([ac_dim])
+        sy_sampled_ac = sy_mean_ac + tf.exp(sy_logstd) * tf.random_normal([ac_dim])
         # Hint: Use the log probability under a multivariate gaussian.
-        sy_logprob_n = -(0.5) * (tf.reduce_sum(tf.log(sy_cov)) + (1/sy_cov)*(sy_ac_na - sy_mean)**2 + ac_dim*np.log(2*np.pi))
+        sy_cov = tf.exp(sy_logstd)**2
+        sy_logprob_n = -(0.5) * (tf.reduce_sum(tf.log(sy_cov)) + tf.reduce_sum((1/sy_cov) * ((sy_ac_na - sy_mean_ac)**2)))
 
 
     #========================================================================================#
