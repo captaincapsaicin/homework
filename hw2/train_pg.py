@@ -185,8 +185,7 @@ def train_PG(exp_name='',
         sy_sampled_ac = sy_mean_ac + tf.exp(sy_logstd) * tf.random_normal([ac_dim])
         # Hint: Use the log probability under a multivariate gaussian.
         sy_cov = tf.exp(sy_logstd)**2
-        sy_logprob_n = -(0.5) * (tf.reduce_sum(tf.log(sy_cov)) + tf.reduce_sum((1/sy_cov) * ((sy_ac_na - sy_mean_ac)**2)))
-
+        sy_logprob_n = -(0.5) * (tf.log(tf.reduce_sum(sy_cov)) + tf.reduce_sum((1/sy_cov) * ((sy_ac_na - sy_mean_ac)**2), axis=1))
 
     #========================================================================================#
     #                           ----------SECTION 4----------
@@ -194,7 +193,7 @@ def train_PG(exp_name='',
     #========================================================================================#
 
     # Loss function that we'll differentiate to get the policy gradient.
-    loss = -tf.reduce_mean(sy_logprob_n * sy_adv_n)
+    loss = -1 * tf.reduce_mean(sy_logprob_n * sy_adv_n)
     update_op = tf.train.AdamOptimizer(learning_rate).minimize(loss)
 
 
