@@ -36,12 +36,10 @@ def build_mlp(
         for i in range(n_layers):
             output = tf.layers.dense(output,
                                      size,
-                                     activation=activation,
-                                     kernel_initializer=tf.random_normal_initializer)
+                                     activation=activation)
         output = tf.layers.dense(output,
                                  output_size,
-                                 activation=output_activation,
-                                 kernel_initializer=tf.random_normal_initializer)
+                                 activation=output_activation)
         return output
 
 def pathlength(path):
