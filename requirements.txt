@@ -5,7 +5,8 @@ keras
 matplotlib
 mujoco_py==0.5.7
 numpy
+opencv-python
 scipy
+seaborn
 tensorflow
 theano
-seaborn
