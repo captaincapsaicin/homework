@@ -2,11 +2,11 @@ import sys
 import gym.spaces
 import itertools
 import numpy as np
-# import random
+import random
 import tensorflow as tf
 # import tensorflow.contrib.layers as layers
 from collections import namedtuple
-from dqn_utils import ReplayBuffer, LinearSchedule, minimize_and_clip, get_wrapper_by_name
+from dqn_utils import ReplayBuffer, LinearSchedule, minimize_and_clip, get_wrapper_by_name, initialize_interdependent_variables
 
 OptimizerSpec = namedtuple("OptimizerSpec", ["constructor", "kwargs", "lr_schedule"])
 
@@ -245,6 +245,9 @@ def learn(env,
             # replay buffer code for function definition, each batch that you sample
             # should consist of current observations, current actions, rewards,
             # next observations, and done indicator).
+
+            obs_t_batch, act_t_batch, rew_t_batch, obs_tp1_batch, done_mask_t_batch = replay_buffer.sample(batch_size)
+
             # 3.b: initialize the model if it has not been initialized yet; to do
             # that, call
             #    initialize_interdependent_variables(session, tf.global_variables(), {
@@ -255,6 +258,13 @@ def learn(env,
             # the current and next time step. The boolean variable model_initialized
             # indicates whether or not the model has been initialized.
             # Remember that you have to update the target network too (see 3.d)!
+            if not model_initialized:
+                initialize_interdependent_variables(session, tf.global_variables(), {
+                    obs_t_ph: obs_t_batch,
+                    obs_tp1_ph: obs_tp1_batch,
+                })
+                model_initialized = True
+
             # 3.c: train the model. To do this, you'll need to use the train_fn and
             # total_error ops that were created earlier: total_error is what you
             # created to compute the total Bellman error in a batch, and train_fn
@@ -269,13 +279,25 @@ def learn(env,
             # (this is needed for computing total_error)
             # learning_rate -- you can get this from optimizer_spec.lr_schedule.value(t)
             # (this is needed by the optimizer to choose the learning rate)
+
+            feed_dict = {obs_t_ph: obs_t_batch,
+                         act_t_ph: act_t_batch,
+                         rew_t_ph: rew_t_batch,
+                         obs_tp1_ph: obs_tp1_batch,
+                         done_mask_ph: done_mask_t_batch,
+                         learning_rate: optimizer_spec.lr_schedule.value(t)}
+            train_fn.run(feed_dict)
+
             # 3.d: periodically update the target network by calling
             # session.run(update_target_fn)
             # you should update every target_update_freq steps, and you may find the
             # variable num_param_updates useful for this (it was initialized to 0)
             #####
-            
-            # YOUR CODE HERE
+
+            # in case we skip a step, we can't just ask for % update_freq == 0
+            if t - target_update_freq >= num_param_updates * target_update_freq:
+                session.run(update_target_fn)
+                num_param_updates += 1
 
             #####
 
