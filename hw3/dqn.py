@@ -143,7 +143,7 @@ def learn(env,
     one_hot_act_t_ph = tf.one_hot(act_t_ph, num_actions)
     # then extract the q value for that action. This has size [None], as should y_ph
     q_with_action_taken_t_ph = tf.diag_part(tf.matmul(one_hot_act_t_ph, q_t_ph, transpose_b=True))
-    total_error = tf.losses.huber_loss(q_with_action_taken_t_ph - y_ph)
+    total_error = tf.losses.huber_loss(q_with_action_taken_t_ph, y_ph)
 
     ######
 
