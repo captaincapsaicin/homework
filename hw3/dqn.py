@@ -209,9 +209,24 @@ def learn(env,
         # might as well be random, since you haven't trained your net...)
 
         #####
-        
-        # YOUR CODE HERE
+        # store the last observation
+        idx = replay_buffer.store_frame(last_obs)
+        encoded_last_obs = replay_buffer.encode_recent_observation
+        if not model_initialized:
+            action = random.randrange(num_actions)
+        else:
+            # need to add [None] so it looks like a sample
+            action = session.run(q_t_ph, feed_dict={obs_t_ph : encoded_last_obs[None]})
+            # our policy is just select action with greatest reward
+            # TODO make sure this selects along correct axis
+            action = np.argmax(action)
+        obs, reward, done, info = env.step(action)
+        replay_buffer.store_effect(idx, action, reward, done)
 
+        if done:
+            last_obs = env.reset()
+        else:
+            last_obs = obs
         #####
 
         # at this point, the environment should have been advanced one step (and
