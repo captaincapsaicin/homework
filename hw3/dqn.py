@@ -2,11 +2,11 @@ import sys
 import gym.spaces
 import itertools
 import numpy as np
-import random
-import tensorflow                as tf
-import tensorflow.contrib.layers as layers
+# import random
+import tensorflow as tf
+# import tensorflow.contrib.layers as layers
 from collections import namedtuple
-from dqn_utils import *
+from dqn_utils import ReplayBuffer, LinearSchedule, minimize_and_clip, get_wrapper_by_name
 
 OptimizerSpec = namedtuple("OptimizerSpec", ["constructor", "kwargs", "lr_schedule"])
 
@@ -126,8 +126,24 @@ def learn(env,
     # q_func_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='q_func')
     # Older versions of TensorFlow may require using "VARIABLES" instead of "GLOBAL_VARIABLES"
     ######
-    
-    # YOUR CODE HERE
+    # the q function maps from state to vector of rewards (index is action)
+    q_t_ph = q_func(obs_t_float, num_actions, scope="q_func", reuse=False)
+
+    # I'm not sure how to get the target q yet
+    target_q_tp1_ph = q_func(obs_tp1_float, num_actions, scope="target_q_func", reuse=False)
+
+    # these are all the variables involved in the q function
+    q_func_vars =  tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='q_func')
+    target_q_func_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='target_q_func')
+
+    # grab the max reward from the target network
+    # TODO NTHOMAS check this reduce max does the right thing
+    y_ph = rew_t_ph + done_mask_ph * gamma * tf.reduce_max(target_q_tp1_ph)
+    # I need to select the q value with the action taken, so one hot encode action taken
+    one_hot_act_t_ph = tf.one_hot(act_t_ph, num_actions)
+    # then extract the q value for that action. This has size [None], as should y_ph
+    q_with_action_taken_t_ph = tf.diag_part(tf.matmul(one_hot_act_t_ph, q_t_ph, transpose_b=True))
+    total_error = tf.losses.huber_loss(q_with_action_taken_t_ph - y_ph)
 
     ######
 
