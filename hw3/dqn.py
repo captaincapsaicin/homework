@@ -10,6 +10,8 @@ from dqn_utils import ReplayBuffer, LinearSchedule, minimize_and_clip, get_wrapp
 
 OptimizerSpec = namedtuple("OptimizerSpec", ["constructor", "kwargs", "lr_schedule"])
 
+EPSILON = 0.5
+
 def learn(env,
           q_func,
           optimizer_spec,
@@ -219,7 +221,11 @@ def learn(env,
             action_value_vector = session.run(q_t_ph, feed_dict={obs_t_ph : encoded_last_obs[None]})
             # our policy is just select action with greatest reward
             # TODO make sure this selects along correct axis
-            action = np.argmax(action_value_vector)
+            best_action = np.argmax(action_value_vector)
+            epsilon = EPSILON / t
+            pvals = [epsilon / (num_actions - 1)] * num_actions
+            pvals[best_action] = 1 - epsilon
+            action = np.argmax(np.random.multinomial(1, pvals))
         obs, reward, done, info = env.step(action)
         replay_buffer.store_effect(idx, action, reward, done)
 
