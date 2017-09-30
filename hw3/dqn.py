@@ -222,7 +222,7 @@ def learn(env,
             # our policy is just select action with greatest reward
             # TODO make sure this selects along correct axis
             best_action = np.argmax(action_value_vector)
-            epsilon = EPSILON / t
+            epsilon = EPSILON / (t + 1)
             pvals = [epsilon / (num_actions - 1)] * num_actions
             pvals[best_action] = 1 - epsilon
             action = np.argmax(np.random.multinomial(1, pvals))
