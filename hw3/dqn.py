@@ -133,14 +133,13 @@ def learn(env,
 
     # I'm not sure how to get the target q yet
     target_q_tp1_ph = q_func(obs_tp1_float, num_actions, scope="target_q_func", reuse=False)
-
     # these are all the variables involved in the q function
     q_func_vars =  tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='q_func')
     target_q_func_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='target_q_func')
 
     # grab the max reward from the target network
-    # TODO NTHOMAS check this reduce max does the right thing
-    y_ph = rew_t_ph + done_mask_ph * gamma * tf.reduce_max(target_q_tp1_ph)
+    not_done_mask_ph = 1 - done_mask_ph
+    y_ph = rew_t_ph + not_done_mask_ph * gamma * tf.reduce_max(target_q_tp1_ph, axis=1)
     # I need to select the q value with the action taken, so one hot encode action taken
     one_hot_act_t_ph = tf.one_hot(act_t_ph, num_actions)
     # then extract the q value for that action. This has size [None], as should y_ph
