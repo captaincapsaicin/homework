@@ -301,7 +301,7 @@ def learn(env,
             #####
 
             # in case we skip a step, we can't just ask for % update_freq == 0
-            if t - target_update_freq >= num_param_updates * target_update_freq:
+            if t // target_update_freq > num_param_updates:
                 session.run(update_target_fn)
                 num_param_updates += 1
 
