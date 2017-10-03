@@ -26,11 +26,11 @@ def atari_model(ram_in, num_actions, scope, reuse=False):
 
 def atari_learn(env,
                 session,
-                num_timesteps):
+                num_timesteps,
+                lr_multiplier=1.0):
     # This is just a rough estimate
     num_iterations = float(num_timesteps) / 4.0
 
-    lr_multiplier = 1.0 
     lr_schedule = PiecewiseSchedule([
                                          (0,                   1e-4 * lr_multiplier),
                                          (num_iterations / 10, 1e-4 * lr_multiplier),
@@ -85,7 +85,7 @@ def set_global_seeds(i):
     except ImportError:
         pass
     else:
-        tf.set_random_seed(i) 
+        tf.set_random_seed(i)
     np.random.seed(i)
     random.seed(i)
 
@@ -112,10 +112,14 @@ def get_env(seed):
 
 def main():
     # Run training
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--lr_multiplier', type=float, default=1.0)
+    args = parser.parse_args()
+
     seed = 0 # Use a seed of zero (you may want to randomize the seed!)
     env = get_env(seed)
     session = get_session()
-    atari_learn(env, session, num_timesteps=int(4e7))
+    atari_learn(env, session, num_timesteps=int(4e7), lr_multiplier=args.lr_multiplier)
 
 if __name__ == "__main__":
     main()
