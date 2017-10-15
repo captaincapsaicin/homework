@@ -3,12 +3,14 @@ import gym.spaces
 import itertools
 import numpy as np
 import random
-import tensorflow                as tf
-import tensorflow.contrib.layers as layers
+import tensorflow as tf
+# import tensorflow.contrib.layers as layers
 from collections import namedtuple
-from dqn_utils import *
+from dqn_utils import ReplayBuffer, LinearSchedule, minimize_and_clip, get_wrapper_by_name, initialize_interdependent_variables
 
 OptimizerSpec = namedtuple("OptimizerSpec", ["constructor", "kwargs", "lr_schedule"])
+
+EPSILON = 0.5
 
 def learn(env,
           q_func,
@@ -126,8 +128,23 @@ def learn(env,
     # q_func_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='q_func')
     # Older versions of TensorFlow may require using "VARIABLES" instead of "GLOBAL_VARIABLES"
     ######
-    
-    # YOUR CODE HERE
+    # the q function maps from state to vector of rewards (index is action)
+    q_t_ph = q_func(obs_t_float, num_actions, scope="q_func", reuse=False)
+
+    # I'm not sure how to get the target q yet
+    target_q_tp1_ph = q_func(obs_tp1_float, num_actions, scope="target_q_func", reuse=False)
+    # these are all the variables involved in the q function
+    q_func_vars =  tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='q_func')
+    target_q_func_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='target_q_func')
+
+    # grab the max reward from the target network
+    not_done_mask_ph = 1 - done_mask_ph
+    y_ph = rew_t_ph + not_done_mask_ph * gamma * tf.reduce_max(target_q_tp1_ph, axis=1)
+    # I need to select the q value with the action taken, so one hot encode action taken
+    one_hot_act_t_ph = tf.one_hot(act_t_ph, num_actions)
+    # then extract the q value for that action. This has size [None], as should y_ph
+    q_with_action_taken_t_ph = tf.diag_part(tf.matmul(one_hot_act_t_ph, q_t_ph, transpose_b=True))
+    total_error = tf.losses.huber_loss(q_with_action_taken_t_ph, y_ph)
 
     ######
 
@@ -193,9 +210,28 @@ def learn(env,
         # might as well be random, since you haven't trained your net...)
 
         #####
-        
-        # YOUR CODE HERE
+        # store the last observation
+        idx = replay_buffer.store_frame(last_obs)
+        encoded_last_obs = replay_buffer.encode_recent_observation()
+        if not model_initialized:
+            action = random.randrange(num_actions)
+        else:
+            # need to add [None] so it looks like a sample
+            action_value_vector = session.run(q_t_ph, feed_dict={obs_t_ph : encoded_last_obs[None]})
+            # our policy is just select action with greatest reward
+            # TODO make sure this selects along correct axis
+            best_action = np.argmax(action_value_vector)
+            epsilon = EPSILON / (t + 1)
+            pvals = [epsilon / (num_actions - 1)] * num_actions
+            pvals[best_action] = 1 - epsilon
+            action = np.argmax(np.random.multinomial(1, pvals))
+        obs, reward, done, info = env.step(action)
+        replay_buffer.store_effect(idx, action, reward, done)
 
+        if done:
+            last_obs = env.reset()
+        else:
+            last_obs = obs
         #####
 
         # at this point, the environment should have been advanced one step (and
@@ -214,6 +250,9 @@ def learn(env,
             # replay buffer code for function definition, each batch that you sample
             # should consist of current observations, current actions, rewards,
             # next observations, and done indicator).
+
+            obs_t_batch, act_t_batch, rew_t_batch, obs_tp1_batch, done_mask_t_batch = replay_buffer.sample(batch_size)
+
             # 3.b: initialize the model if it has not been initialized yet; to do
             # that, call
             #    initialize_interdependent_variables(session, tf.global_variables(), {
@@ -224,6 +263,13 @@ def learn(env,
             # the current and next time step. The boolean variable model_initialized
             # indicates whether or not the model has been initialized.
             # Remember that you have to update the target network too (see 3.d)!
+            if not model_initialized:
+                initialize_interdependent_variables(session, tf.global_variables(), {
+                    obs_t_ph: obs_t_batch,
+                    obs_tp1_ph: obs_tp1_batch,
+                })
+                model_initialized = True
+
             # 3.c: train the model. To do this, you'll need to use the train_fn and
             # total_error ops that were created earlier: total_error is what you
             # created to compute the total Bellman error in a batch, and train_fn
@@ -238,13 +284,25 @@ def learn(env,
             # (this is needed for computing total_error)
             # learning_rate -- you can get this from optimizer_spec.lr_schedule.value(t)
             # (this is needed by the optimizer to choose the learning rate)
+
+            feed_dict = {obs_t_ph: obs_t_batch,
+                         act_t_ph: act_t_batch,
+                         rew_t_ph: rew_t_batch,
+                         obs_tp1_ph: obs_tp1_batch,
+                         done_mask_ph: done_mask_t_batch,
+                         learning_rate: optimizer_spec.lr_schedule.value(t)}
+            train_fn.run(feed_dict, session=session)
+
             # 3.d: periodically update the target network by calling
             # session.run(update_target_fn)
             # you should update every target_update_freq steps, and you may find the
             # variable num_param_updates useful for this (it was initialized to 0)
             #####
-            
-            # YOUR CODE HERE
+
+            # in case we skip a step, we can't just ask for % update_freq == 0
+            if t // target_update_freq > num_param_updates:
+                session.run(update_target_fn)
+                num_param_updates += 1
 
             #####
 

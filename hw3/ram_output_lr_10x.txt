@@ -1,0 +1,5929 @@
+AVAILABLE GPUS:  []
+Timestep 60000
+mean reward (100 episodes) -20.760000
+best mean reward -20.460000
+episodes 207
+exploration 0.194000
+learning_rate 0.001000
+Timestep 70000
+mean reward (100 episodes) -20.780000
+best mean reward -20.460000
+episodes 245
+exploration 0.193000
+learning_rate 0.001000
+Timestep 80000
+mean reward (100 episodes) -20.780000
+best mean reward -20.460000
+episodes 282
+exploration 0.192000
+learning_rate 0.001000
+Timestep 90000
+mean reward (100 episodes) -20.710000
+best mean reward -20.460000
+episodes 318
+exploration 0.191000
+learning_rate 0.001000
+Timestep 100000
+mean reward (100 episodes) -20.700000
+best mean reward -20.460000
+episodes 355
+exploration 0.190000
+learning_rate 0.001000
+Timestep 110000
+mean reward (100 episodes) -20.700000
+best mean reward -20.460000
+episodes 391
+exploration 0.189000
+learning_rate 0.001000
+Timestep 120000
+mean reward (100 episodes) -20.710000
+best mean reward -20.460000
+episodes 427
+exploration 0.188000
+learning_rate 0.001000
+Timestep 130000
+mean reward (100 episodes) -20.700000
+best mean reward -20.460000
+episodes 461
+exploration 0.187000
+learning_rate 0.001000
+Timestep 140000
+mean reward (100 episodes) -20.690000
+best mean reward -20.460000
+episodes 493
+exploration 0.186000
+learning_rate 0.001000
+Timestep 150000
+mean reward (100 episodes) -20.650000
+best mean reward -20.460000
+episodes 524
+exploration 0.185000
+learning_rate 0.001000
+Timestep 160000
+mean reward (100 episodes) -20.610000
+best mean reward -20.460000
+episodes 553
+exploration 0.184000
+learning_rate 0.001000
+Timestep 170000
+mean reward (100 episodes) -20.510000
+best mean reward -20.460000
+episodes 581
+exploration 0.183000
+learning_rate 0.001000
+Timestep 180000
+mean reward (100 episodes) -20.480000
+best mean reward -20.450000
+episodes 611
+exploration 0.182000
+learning_rate 0.001000
+Timestep 190000
+mean reward (100 episodes) -20.410000
+best mean reward -20.410000
+episodes 638
+exploration 0.181000
+learning_rate 0.001000
+Timestep 200000
+mean reward (100 episodes) -20.400000
+best mean reward -20.380000
+episodes 664
+exploration 0.180000
+learning_rate 0.001000
+Timestep 210000
+mean reward (100 episodes) -20.490000
+best mean reward -20.380000
+episodes 693
+exploration 0.179000
+learning_rate 0.001000
+Timestep 220000
+mean reward (100 episodes) -20.420000
+best mean reward -20.380000
+episodes 716
+exploration 0.178000
+learning_rate 0.001000
+Timestep 230000
+mean reward (100 episodes) -20.440000
+best mean reward -20.380000
+episodes 739
+exploration 0.177000
+learning_rate 0.001000
+Timestep 240000
+mean reward (100 episodes) -20.330000
+best mean reward -20.330000
+episodes 759
+exploration 0.176000
+learning_rate 0.001000
+Timestep 250000
+mean reward (100 episodes) -20.190000
+best mean reward -20.190000
+episodes 781
+exploration 0.175000
+learning_rate 0.001000
+Timestep 260000
+mean reward (100 episodes) -20.070000
+best mean reward -20.050000
+episodes 805
+exploration 0.174000
+learning_rate 0.001000
+Timestep 270000
+mean reward (100 episodes) -19.950000
+best mean reward -19.940000
+episodes 826
+exploration 0.173000
+learning_rate 0.001000
+Timestep 280000
+mean reward (100 episodes) -19.850000
+best mean reward -19.850000
+episodes 846
+exploration 0.172000
+learning_rate 0.001000
+Timestep 290000
+mean reward (100 episodes) -19.940000
+best mean reward -19.820000
+episodes 867
+exploration 0.171000
+learning_rate 0.001000
+Timestep 300000
+mean reward (100 episodes) -19.850000
+best mean reward -19.820000
+episodes 887
+exploration 0.170000
+learning_rate 0.001000
+Timestep 310000
+mean reward (100 episodes) -19.470000
+best mean reward -19.470000
+episodes 906
+exploration 0.169000
+learning_rate 0.001000
+Timestep 320000
+mean reward (100 episodes) -19.290000
+best mean reward -19.280000
+episodes 925
+exploration 0.168000
+learning_rate 0.001000
+Timestep 330000
+mean reward (100 episodes) -19.090000
+best mean reward -19.090000
+episodes 943
+exploration 0.167000
+learning_rate 0.001000
+Timestep 340000
+mean reward (100 episodes) -18.750000
+best mean reward -18.750000
+episodes 960
+exploration 0.166000
+learning_rate 0.001000
+Timestep 350000
+mean reward (100 episodes) -18.490000
+best mean reward -18.490000
+episodes 977
+exploration 0.165000
+learning_rate 0.001000
+Timestep 360000
+mean reward (100 episodes) -18.490000
+best mean reward -18.460000
+episodes 995
+exploration 0.164000
+learning_rate 0.001000
+Timestep 370000
+mean reward (100 episodes) -18.350000
+best mean reward -18.310000
+episodes 1011
+exploration 0.163000
+learning_rate 0.001000
+Timestep 380000
+mean reward (100 episodes) -18.290000
+best mean reward -18.290000
+episodes 1028
+exploration 0.162000
+learning_rate 0.001000
+Timestep 390000
+mean reward (100 episodes) -18.270000
+best mean reward -18.220000
+episodes 1046
+exploration 0.161000
+learning_rate 0.001000
+Timestep 400000
+mean reward (100 episodes) -18.210000
+best mean reward -18.210000
+episodes 1063
+exploration 0.160000
+learning_rate 0.001000
+Timestep 410000
+mean reward (100 episodes) -18.230000
+best mean reward -18.180000
+episodes 1081
+exploration 0.159000
+learning_rate 0.001000
+Timestep 420000
+mean reward (100 episodes) -18.290000
+best mean reward -18.180000
+episodes 1098
+exploration 0.158000
+learning_rate 0.001000
+Timestep 430000
+mean reward (100 episodes) -18.300000
+best mean reward -18.180000
+episodes 1113
+exploration 0.157000
+learning_rate 0.001000
+Timestep 440000
+mean reward (100 episodes) -18.160000
+best mean reward -18.150000
+episodes 1130
+exploration 0.156000
+learning_rate 0.001000
+Timestep 450000
+mean reward (100 episodes) -17.970000
+best mean reward -17.970000
+episodes 1145
+exploration 0.155000
+learning_rate 0.001000
+Timestep 460000
+mean reward (100 episodes) -18.020000
+best mean reward -17.930000
+episodes 1161
+exploration 0.154000
+learning_rate 0.001000
+Timestep 470000
+mean reward (100 episodes) -17.960000
+best mean reward -17.930000
+episodes 1176
+exploration 0.153000
+learning_rate 0.001000
+Timestep 480000
+mean reward (100 episodes) -17.790000
+best mean reward -17.790000
+episodes 1193
+exploration 0.152000
+learning_rate 0.001000
+Timestep 490000
+mean reward (100 episodes) -17.910000
+best mean reward -17.650000
+episodes 1209
+exploration 0.151000
+learning_rate 0.001000
+Timestep 500000
+mean reward (100 episodes) -17.970000
+best mean reward -17.650000
+episodes 1224
+exploration 0.150000
+learning_rate 0.001000
+Timestep 510000
+mean reward (100 episodes) -18.190000
+best mean reward -17.650000
+episodes 1240
+exploration 0.149000
+learning_rate 0.001000
+Timestep 520000
+mean reward (100 episodes) -18.320000
+best mean reward -17.650000
+episodes 1254
+exploration 0.148000
+learning_rate 0.001000
+Timestep 530000
+mean reward (100 episodes) -18.170000
+best mean reward -17.650000
+episodes 1270
+exploration 0.147000
+learning_rate 0.001000
+Timestep 540000
+mean reward (100 episodes) -18.040000
+best mean reward -17.650000
+episodes 1285
+exploration 0.146000
+learning_rate 0.001000
+Timestep 550000
+mean reward (100 episodes) -18.090000
+best mean reward -17.650000
+episodes 1299
+exploration 0.145000
+learning_rate 0.001000
+Timestep 560000
+mean reward (100 episodes) -17.810000
+best mean reward -17.650000
+episodes 1314
+exploration 0.144000
+learning_rate 0.001000
+Timestep 570000
+mean reward (100 episodes) -17.650000
+best mean reward -17.650000
+episodes 1329
+exploration 0.143000
+learning_rate 0.001000
+Timestep 580000
+mean reward (100 episodes) -17.540000
+best mean reward -17.540000
+episodes 1343
+exploration 0.142000
+learning_rate 0.001000
+Timestep 590000
+mean reward (100 episodes) -17.390000
+best mean reward -17.390000
+episodes 1358
+exploration 0.141000
+learning_rate 0.001000
+Timestep 600000
+mean reward (100 episodes) -17.640000
+best mean reward -17.370000
+episodes 1372
+exploration 0.140000
+learning_rate 0.001000
+Timestep 610000
+mean reward (100 episodes) -17.850000
+best mean reward -17.370000
+episodes 1388
+exploration 0.139000
+learning_rate 0.001000
+Timestep 620000
+mean reward (100 episodes) -18.040000
+best mean reward -17.370000
+episodes 1403
+exploration 0.138000
+learning_rate 0.001000
+Timestep 630000
+mean reward (100 episodes) -18.210000
+best mean reward -17.370000
+episodes 1419
+exploration 0.137000
+learning_rate 0.001000
+Timestep 640000
+mean reward (100 episodes) -18.400000
+best mean reward -17.370000
+episodes 1435
+exploration 0.136000
+learning_rate 0.001000
+Timestep 650000
+mean reward (100 episodes) -18.550000
+best mean reward -17.370000
+episodes 1451
+exploration 0.135000
+learning_rate 0.001000
+Timestep 660000
+mean reward (100 episodes) -18.560000
+best mean reward -17.370000
+episodes 1465
+exploration 0.134000
+learning_rate 0.001000
+Timestep 670000
+mean reward (100 episodes) -18.500000
+best mean reward -17.370000
+episodes 1481
+exploration 0.133000
+learning_rate 0.001000
+Timestep 680000
+mean reward (100 episodes) -18.460000
+best mean reward -17.370000
+episodes 1496
+exploration 0.132000
+learning_rate 0.001000
+Timestep 690000
+mean reward (100 episodes) -18.560000
+best mean reward -17.370000
+episodes 1511
+exploration 0.131000
+learning_rate 0.001000
+Timestep 700000
+mean reward (100 episodes) -18.330000
+best mean reward -17.370000
+episodes 1527
+exploration 0.130000
+learning_rate 0.001000
+Timestep 710000
+mean reward (100 episodes) -18.000000
+best mean reward -17.370000
+episodes 1542
+exploration 0.129000
+learning_rate 0.001000
+Timestep 720000
+mean reward (100 episodes) -17.990000
+best mean reward -17.370000
+episodes 1556
+exploration 0.128000
+learning_rate 0.001000
+Timestep 730000
+mean reward (100 episodes) -17.870000
+best mean reward -17.370000
+episodes 1572
+exploration 0.127000
+learning_rate 0.001000
+Timestep 740000
+mean reward (100 episodes) -17.850000
+best mean reward -17.370000
+episodes 1587
+exploration 0.126000
+learning_rate 0.001000
+Timestep 750000
+mean reward (100 episodes) -17.450000
+best mean reward -17.370000
+episodes 1601
+exploration 0.125000
+learning_rate 0.001000
+Timestep 760000
+mean reward (100 episodes) -17.580000
+best mean reward -17.370000
+episodes 1616
+exploration 0.124000
+learning_rate 0.001000
+Timestep 770000
+mean reward (100 episodes) -17.770000
+best mean reward -17.370000
+episodes 1632
+exploration 0.123000
+learning_rate 0.001000
+Timestep 780000
+mean reward (100 episodes) -17.920000
+best mean reward -17.370000
+episodes 1647
+exploration 0.122000
+learning_rate 0.001000
+Timestep 790000
+mean reward (100 episodes) -17.880000
+best mean reward -17.370000
+episodes 1662
+exploration 0.121000
+learning_rate 0.001000
+Timestep 800000
+mean reward (100 episodes) -17.880000
+best mean reward -17.370000
+episodes 1675
+exploration 0.120000
+learning_rate 0.001000
+Timestep 810000
+mean reward (100 episodes) -17.820000
+best mean reward -17.370000
+episodes 1688
+exploration 0.119000
+learning_rate 0.001000
+Timestep 820000
+mean reward (100 episodes) -17.840000
+best mean reward -17.370000
+episodes 1702
+exploration 0.118000
+learning_rate 0.001000
+Timestep 830000
+mean reward (100 episodes) -17.370000
+best mean reward -17.370000
+episodes 1716
+exploration 0.117000
+learning_rate 0.001000
+Timestep 840000
+mean reward (100 episodes) -17.260000
+best mean reward -17.190000
+episodes 1732
+exploration 0.116000
+learning_rate 0.001000
+Timestep 850000
+mean reward (100 episodes) -17.150000
+best mean reward -17.130000
+episodes 1747
+exploration 0.115000
+learning_rate 0.001000
+Timestep 860000
+mean reward (100 episodes) -17.110000
+best mean reward -17.050000
+episodes 1761
+exploration 0.114000
+learning_rate 0.001000
+Timestep 870000
+mean reward (100 episodes) -17.110000
+best mean reward -17.050000
+episodes 1775
+exploration 0.113000
+learning_rate 0.001000
+Timestep 880000
+mean reward (100 episodes) -16.800000
+best mean reward -16.800000
+episodes 1788
+exploration 0.112000
+learning_rate 0.001000
+Timestep 890000
+mean reward (100 episodes) -16.960000
+best mean reward -16.750000
+episodes 1806
+exploration 0.111000
+learning_rate 0.001000
+Timestep 900000
+mean reward (100 episodes) -17.010000
+best mean reward -16.750000
+episodes 1820
+exploration 0.110000
+learning_rate 0.001000
+Timestep 910000
+mean reward (100 episodes) -17.030000
+best mean reward -16.750000
+episodes 1835
+exploration 0.109000
+learning_rate 0.001000
+Timestep 920000
+mean reward (100 episodes) -17.160000
+best mean reward -16.750000
+episodes 1850
+exploration 0.108000
+learning_rate 0.001000
+Timestep 930000
+mean reward (100 episodes) -17.090000
+best mean reward -16.750000
+episodes 1865
+exploration 0.107000
+learning_rate 0.001000
+Timestep 940000
+mean reward (100 episodes) -17.170000
+best mean reward -16.750000
+episodes 1880
+exploration 0.106000
+learning_rate 0.001000
+Timestep 950000
+mean reward (100 episodes) -17.300000
+best mean reward -16.750000
+episodes 1894
+exploration 0.105000
+learning_rate 0.001000
+Timestep 960000
+mean reward (100 episodes) -17.370000
+best mean reward -16.750000
+episodes 1909
+exploration 0.104000
+learning_rate 0.001000
+Timestep 970000
+mean reward (100 episodes) -17.370000
+best mean reward -16.750000
+episodes 1923
+exploration 0.103000
+learning_rate 0.001000
+Timestep 980000
+mean reward (100 episodes) -17.230000
+best mean reward -16.750000
+episodes 1937
+exploration 0.102000
+learning_rate 0.001000
+Timestep 990000
+mean reward (100 episodes) -16.920000
+best mean reward -16.750000
+episodes 1948
+exploration 0.101000
+learning_rate 0.001000
+Timestep 1000000
+mean reward (100 episodes) -16.860000
+best mean reward -16.750000
+episodes 1961
+exploration 0.100000
+learning_rate 0.001000
+Timestep 1010000
+mean reward (100 episodes) -17.020000
+best mean reward -16.750000
+episodes 1977
+exploration 0.099775
+learning_rate 0.000999
+Timestep 1020000
+mean reward (100 episodes) -17.030000
+best mean reward -16.750000
+episodes 1991
+exploration 0.099550
+learning_rate 0.000998
+Timestep 1030000
+mean reward (100 episodes) -16.900000
+best mean reward -16.750000
+episodes 2004
+exploration 0.099325
+learning_rate 0.000996
+Timestep 1040000
+mean reward (100 episodes) -16.750000
+best mean reward -16.730000
+episodes 2020
+exploration 0.099100
+learning_rate 0.000995
+Timestep 1050000
+mean reward (100 episodes) -16.500000
+best mean reward -16.500000
+episodes 2034
+exploration 0.098875
+learning_rate 0.000994
+Timestep 1060000
+mean reward (100 episodes) -16.470000
+best mean reward -16.430000
+episodes 2049
+exploration 0.098650
+learning_rate 0.000993
+Timestep 1070000
+mean reward (100 episodes) -16.440000
+best mean reward -16.330000
+episodes 2064
+exploration 0.098425
+learning_rate 0.000991
+Timestep 1080000
+mean reward (100 episodes) -16.150000
+best mean reward -16.150000
+episodes 2079
+exploration 0.098200
+learning_rate 0.000990
+Timestep 1090000
+mean reward (100 episodes) -16.080000
+best mean reward -15.990000
+episodes 2093
+exploration 0.097975
+learning_rate 0.000989
+Timestep 1100000
+mean reward (100 episodes) -16.040000
+best mean reward -15.980000
+episodes 2107
+exploration 0.097750
+learning_rate 0.000988
+Timestep 1110000
+mean reward (100 episodes) -16.250000
+best mean reward -15.980000
+episodes 2122
+exploration 0.097525
+learning_rate 0.000986
+Timestep 1120000
+mean reward (100 episodes) -16.360000
+best mean reward -15.980000
+episodes 2136
+exploration 0.097300
+learning_rate 0.000985
+Timestep 1130000
+mean reward (100 episodes) -16.720000
+best mean reward -15.980000
+episodes 2152
+exploration 0.097075
+learning_rate 0.000984
+Timestep 1140000
+mean reward (100 episodes) -16.680000
+best mean reward -15.980000
+episodes 2169
+exploration 0.096850
+learning_rate 0.000983
+Timestep 1150000
+mean reward (100 episodes) -16.610000
+best mean reward -15.980000
+episodes 2184
+exploration 0.096625
+learning_rate 0.000981
+Timestep 1160000
+mean reward (100 episodes) -16.610000
+best mean reward -15.980000
+episodes 2200
+exploration 0.096400
+learning_rate 0.000980
+Timestep 1170000
+mean reward (100 episodes) -16.590000
+best mean reward -15.980000
+episodes 2215
+exploration 0.096175
+learning_rate 0.000979
+Timestep 1180000
+mean reward (100 episodes) -16.330000
+best mean reward -15.980000
+episodes 2230
+exploration 0.095950
+learning_rate 0.000978
+Timestep 1190000
+mean reward (100 episodes) -15.830000
+best mean reward -15.830000
+episodes 2244
+exploration 0.095725
+learning_rate 0.000976
+Timestep 1200000
+mean reward (100 episodes) -15.660000
+best mean reward -15.650000
+episodes 2259
+exploration 0.095500
+learning_rate 0.000975
+Timestep 1210000
+mean reward (100 episodes) -15.880000
+best mean reward -15.650000
+episodes 2274
+exploration 0.095275
+learning_rate 0.000974
+Timestep 1220000
+mean reward (100 episodes) -16.000000
+best mean reward -15.650000
+episodes 2288
+exploration 0.095050
+learning_rate 0.000973
+Timestep 1230000
+mean reward (100 episodes) -15.920000
+best mean reward -15.650000
+episodes 2302
+exploration 0.094825
+learning_rate 0.000971
+Timestep 1240000
+mean reward (100 episodes) -15.790000
+best mean reward -15.650000
+episodes 2317
+exploration 0.094600
+learning_rate 0.000970
+Timestep 1250000
+mean reward (100 episodes) -15.910000
+best mean reward -15.650000
+episodes 2332
+exploration 0.094375
+learning_rate 0.000969
+Timestep 1260000
+mean reward (100 episodes) -16.200000
+best mean reward -15.650000
+episodes 2347
+exploration 0.094150
+learning_rate 0.000968
+Timestep 1270000
+mean reward (100 episodes) -16.280000
+best mean reward -15.650000
+episodes 2362
+exploration 0.093925
+learning_rate 0.000966
+Timestep 1280000
+mean reward (100 episodes) -16.100000
+best mean reward -15.650000
+episodes 2377
+exploration 0.093700
+learning_rate 0.000965
+Timestep 1290000
+mean reward (100 episodes) -16.000000
+best mean reward -15.650000
+episodes 2391
+exploration 0.093475
+learning_rate 0.000964
+Timestep 1300000
+mean reward (100 episodes) -16.130000
+best mean reward -15.650000
+episodes 2407
+exploration 0.093250
+learning_rate 0.000963
+Timestep 1310000
+mean reward (100 episodes) -16.270000
+best mean reward -15.650000
+episodes 2420
+exploration 0.093025
+learning_rate 0.000961
+Timestep 1320000
+mean reward (100 episodes) -16.000000
+best mean reward -15.650000
+episodes 2434
+exploration 0.092800
+learning_rate 0.000960
+Timestep 1330000
+mean reward (100 episodes) -15.900000
+best mean reward -15.650000
+episodes 2448
+exploration 0.092575
+learning_rate 0.000959
+Timestep 1340000
+mean reward (100 episodes) -15.530000
+best mean reward -15.530000
+episodes 2461
+exploration 0.092350
+learning_rate 0.000958
+Timestep 1350000
+mean reward (100 episodes) -15.410000
+best mean reward -15.210000
+episodes 2475
+exploration 0.092125
+learning_rate 0.000956
+Timestep 1360000
+mean reward (100 episodes) -15.430000
+best mean reward -15.210000
+episodes 2488
+exploration 0.091900
+learning_rate 0.000955
+Timestep 1370000
+mean reward (100 episodes) -15.280000
+best mean reward -15.210000
+episodes 2502
+exploration 0.091675
+learning_rate 0.000954
+Timestep 1380000
+mean reward (100 episodes) -15.580000
+best mean reward -15.210000
+episodes 2516
+exploration 0.091450
+learning_rate 0.000953
+Timestep 1390000
+mean reward (100 episodes) -15.790000
+best mean reward -15.210000
+episodes 2530
+exploration 0.091225
+learning_rate 0.000951
+Timestep 1400000
+mean reward (100 episodes) -16.130000
+best mean reward -15.210000
+episodes 2546
+exploration 0.091000
+learning_rate 0.000950
+Timestep 1410000
+mean reward (100 episodes) -16.280000
+best mean reward -15.210000
+episodes 2559
+exploration 0.090775
+learning_rate 0.000949
+Timestep 1420000
+mean reward (100 episodes) -16.600000
+best mean reward -15.210000
+episodes 2573
+exploration 0.090550
+learning_rate 0.000947
+Timestep 1430000
+mean reward (100 episodes) -16.630000
+best mean reward -15.210000
+episodes 2587
+exploration 0.090325
+learning_rate 0.000946
+Timestep 1440000
+mean reward (100 episodes) -16.740000
+best mean reward -15.210000
+episodes 2601
+exploration 0.090100
+learning_rate 0.000945
+Timestep 1450000
+mean reward (100 episodes) -16.480000
+best mean reward -15.210000
+episodes 2616
+exploration 0.089875
+learning_rate 0.000944
+Timestep 1460000
+mean reward (100 episodes) -16.530000
+best mean reward -15.210000
+episodes 2632
+exploration 0.089650
+learning_rate 0.000942
+Timestep 1470000
+mean reward (100 episodes) -16.510000
+best mean reward -15.210000
+episodes 2645
+exploration 0.089425
+learning_rate 0.000941
+Timestep 1480000
+mean reward (100 episodes) -16.590000
+best mean reward -15.210000
+episodes 2659
+exploration 0.089200
+learning_rate 0.000940
+Timestep 1490000
+mean reward (100 episodes) -16.450000
+best mean reward -15.210000
+episodes 2671
+exploration 0.088975
+learning_rate 0.000939
+Timestep 1500000
+mean reward (100 episodes) -16.460000
+best mean reward -15.210000
+episodes 2684
+exploration 0.088750
+learning_rate 0.000937
+Timestep 1510000
+mean reward (100 episodes) -16.690000
+best mean reward -15.210000
+episodes 2696
+exploration 0.088525
+learning_rate 0.000936
+Timestep 1520000
+mean reward (100 episodes) -16.650000
+best mean reward -15.210000
+episodes 2710
+exploration 0.088300
+learning_rate 0.000935
+Timestep 1530000
+mean reward (100 episodes) -16.540000
+best mean reward -15.210000
+episodes 2724
+exploration 0.088075
+learning_rate 0.000934
+Timestep 1540000
+mean reward (100 episodes) -16.390000
+best mean reward -15.210000
+episodes 2740
+exploration 0.087850
+learning_rate 0.000933
+Timestep 1550000
+mean reward (100 episodes) -16.030000
+best mean reward -15.210000
+episodes 2754
+exploration 0.087625
+learning_rate 0.000931
+Timestep 1560000
+mean reward (100 episodes) -16.010000
+best mean reward -15.210000
+episodes 2768
+exploration 0.087400
+learning_rate 0.000930
+Timestep 1570000
+mean reward (100 episodes) -15.820000
+best mean reward -15.210000
+episodes 2782
+exploration 0.087175
+learning_rate 0.000929
+Timestep 1580000
+mean reward (100 episodes) -15.630000
+best mean reward -15.210000
+episodes 2796
+exploration 0.086950
+learning_rate 0.000928
+Timestep 1590000
+mean reward (100 episodes) -15.620000
+best mean reward -15.210000
+episodes 2809
+exploration 0.086725
+learning_rate 0.000926
+Timestep 1600000
+mean reward (100 episodes) -15.640000
+best mean reward -15.210000
+episodes 2824
+exploration 0.086500
+learning_rate 0.000925
+Timestep 1610000
+mean reward (100 episodes) -15.730000
+best mean reward -15.210000
+episodes 2836
+exploration 0.086275
+learning_rate 0.000924
+Timestep 1620000
+mean reward (100 episodes) -15.780000
+best mean reward -15.210000
+episodes 2847
+exploration 0.086050
+learning_rate 0.000923
+Timestep 1630000
+mean reward (100 episodes) -16.160000
+best mean reward -15.210000
+episodes 2861
+exploration 0.085825
+learning_rate 0.000921
+Timestep 1640000
+mean reward (100 episodes) -16.140000
+best mean reward -15.210000
+episodes 2874
+exploration 0.085600
+learning_rate 0.000920
+Timestep 1650000
+mean reward (100 episodes) -16.010000
+best mean reward -15.210000
+episodes 2887
+exploration 0.085375
+learning_rate 0.000919
+Timestep 1660000
+mean reward (100 episodes) -16.370000
+best mean reward -15.210000
+episodes 2901
+exploration 0.085150
+learning_rate 0.000918
+Timestep 1670000
+mean reward (100 episodes) -15.940000
+best mean reward -15.210000
+episodes 2914
+exploration 0.084925
+learning_rate 0.000916
+Timestep 1680000
+mean reward (100 episodes) -15.880000
+best mean reward -15.210000
+episodes 2927
+exploration 0.084700
+learning_rate 0.000915
+Timestep 1690000
+mean reward (100 episodes) -15.550000
+best mean reward -15.210000
+episodes 2939
+exploration 0.084475
+learning_rate 0.000914
+Timestep 1700000
+mean reward (100 episodes) -15.550000
+best mean reward -15.210000
+episodes 2952
+exploration 0.084250
+learning_rate 0.000913
+Timestep 1710000
+mean reward (100 episodes) -15.420000
+best mean reward -15.210000
+episodes 2964
+exploration 0.084025
+learning_rate 0.000911
+Timestep 1720000
+mean reward (100 episodes) -15.410000
+best mean reward -15.210000
+episodes 2977
+exploration 0.083800
+learning_rate 0.000910
+Timestep 1730000
+mean reward (100 episodes) -15.370000
+best mean reward -15.210000
+episodes 2993
+exploration 0.083575
+learning_rate 0.000909
+Timestep 1740000
+mean reward (100 episodes) -15.170000
+best mean reward -15.130000
+episodes 3007
+exploration 0.083350
+learning_rate 0.000907
+Timestep 1750000
+mean reward (100 episodes) -15.320000
+best mean reward -15.130000
+episodes 3021
+exploration 0.083125
+learning_rate 0.000906
+Timestep 1760000
+mean reward (100 episodes) -15.510000
+best mean reward -15.130000
+episodes 3036
+exploration 0.082900
+learning_rate 0.000905
+Timestep 1770000
+mean reward (100 episodes) -15.290000
+best mean reward -15.130000
+episodes 3048
+exploration 0.082675
+learning_rate 0.000904
+Timestep 1780000
+mean reward (100 episodes) -15.240000
+best mean reward -15.130000
+episodes 3062
+exploration 0.082450
+learning_rate 0.000902
+Timestep 1790000
+mean reward (100 episodes) -15.150000
+best mean reward -15.010000
+episodes 3075
+exploration 0.082225
+learning_rate 0.000901
+Timestep 1800000
+mean reward (100 episodes) -15.410000
+best mean reward -15.010000
+episodes 3090
+exploration 0.082000
+learning_rate 0.000900
+Timestep 1810000
+mean reward (100 episodes) -15.430000
+best mean reward -15.010000
+episodes 3104
+exploration 0.081775
+learning_rate 0.000899
+Timestep 1820000
+mean reward (100 episodes) -15.270000
+best mean reward -15.010000
+episodes 3117
+exploration 0.081550
+learning_rate 0.000898
+Timestep 1830000
+mean reward (100 episodes) -15.170000
+best mean reward -15.010000
+episodes 3130
+exploration 0.081325
+learning_rate 0.000896
+Timestep 1840000
+mean reward (100 episodes) -15.080000
+best mean reward -15.010000
+episodes 3144
+exploration 0.081100
+learning_rate 0.000895
+Timestep 1850000
+mean reward (100 episodes) -15.250000
+best mean reward -15.010000
+episodes 3158
+exploration 0.080875
+learning_rate 0.000894
+Timestep 1860000
+mean reward (100 episodes) -15.350000
+best mean reward -15.010000
+episodes 3171
+exploration 0.080650
+learning_rate 0.000893
+Timestep 1870000
+mean reward (100 episodes) -14.850000
+best mean reward -14.830000
+episodes 3184
+exploration 0.080425
+learning_rate 0.000891
+Timestep 1880000
+mean reward (100 episodes) -14.810000
+best mean reward -14.810000
+episodes 3196
+exploration 0.080200
+learning_rate 0.000890
+Timestep 1890000
+mean reward (100 episodes) -15.240000
+best mean reward -14.790000
+episodes 3208
+exploration 0.079975
+learning_rate 0.000889
+Timestep 1900000
+mean reward (100 episodes) -15.310000
+best mean reward -14.790000
+episodes 3221
+exploration 0.079750
+learning_rate 0.000888
+Timestep 1910000
+mean reward (100 episodes) -15.810000
+best mean reward -14.790000
+episodes 3235
+exploration 0.079525
+learning_rate 0.000886
+Timestep 1920000
+mean reward (100 episodes) -16.360000
+best mean reward -14.790000
+episodes 3249
+exploration 0.079300
+learning_rate 0.000885
+Timestep 1930000
+mean reward (100 episodes) -16.340000
+best mean reward -14.790000
+episodes 3261
+exploration 0.079075
+learning_rate 0.000884
+Timestep 1940000
+mean reward (100 episodes) -16.620000
+best mean reward -14.790000
+episodes 3274
+exploration 0.078850
+learning_rate 0.000883
+Timestep 1950000
+mean reward (100 episodes) -16.990000
+best mean reward -14.790000
+episodes 3286
+exploration 0.078625
+learning_rate 0.000881
+Timestep 1960000
+mean reward (100 episodes) -16.930000
+best mean reward -14.790000
+episodes 3298
+exploration 0.078400
+learning_rate 0.000880
+Timestep 1970000
+mean reward (100 episodes) -16.610000
+best mean reward -14.790000
+episodes 3311
+exploration 0.078175
+learning_rate 0.000879
+Timestep 1980000
+mean reward (100 episodes) -16.450000
+best mean reward -14.790000
+episodes 3322
+exploration 0.077950
+learning_rate 0.000878
+Timestep 1990000
+mean reward (100 episodes) -16.210000
+best mean reward -14.790000
+episodes 3335
+exploration 0.077725
+learning_rate 0.000876
+Timestep 2000000
+mean reward (100 episodes) -16.180000
+best mean reward -14.790000
+episodes 3347
+exploration 0.077500
+learning_rate 0.000875
+Timestep 2010000
+mean reward (100 episodes) -16.320000
+best mean reward -14.790000
+episodes 3360
+exploration 0.077275
+learning_rate 0.000874
+Timestep 2020000
+mean reward (100 episodes) -16.280000
+best mean reward -14.790000
+episodes 3372
+exploration 0.077050
+learning_rate 0.000873
+Timestep 2030000
+mean reward (100 episodes) -16.580000
+best mean reward -14.790000
+episodes 3388
+exploration 0.076825
+learning_rate 0.000871
+Timestep 2040000
+mean reward (100 episodes) -16.670000
+best mean reward -14.790000
+episodes 3402
+exploration 0.076600
+learning_rate 0.000870
+Timestep 2050000
+mean reward (100 episodes) -16.910000
+best mean reward -14.790000
+episodes 3416
+exploration 0.076375
+learning_rate 0.000869
+Timestep 2060000
+mean reward (100 episodes) -16.920000
+best mean reward -14.790000
+episodes 3429
+exploration 0.076150
+learning_rate 0.000867
+Timestep 2070000
+mean reward (100 episodes) -16.560000
+best mean reward -14.790000
+episodes 3442
+exploration 0.075925
+learning_rate 0.000866
+Timestep 2080000
+mean reward (100 episodes) -16.160000
+best mean reward -14.790000
+episodes 3456
+exploration 0.075700
+learning_rate 0.000865
+Timestep 2090000
+mean reward (100 episodes) -15.940000
+best mean reward -14.790000
+episodes 3470
+exploration 0.075475
+learning_rate 0.000864
+Timestep 2100000
+mean reward (100 episodes) -15.420000
+best mean reward -14.790000
+episodes 3484
+exploration 0.075250
+learning_rate 0.000862
+Timestep 2110000
+mean reward (100 episodes) -15.130000
+best mean reward -14.790000
+episodes 3498
+exploration 0.075025
+learning_rate 0.000861
+Timestep 2120000
+mean reward (100 episodes) -14.970000
+best mean reward -14.790000
+episodes 3512
+exploration 0.074800
+learning_rate 0.000860
+Timestep 2130000
+mean reward (100 episodes) -14.800000
+best mean reward -14.790000
+episodes 3525
+exploration 0.074575
+learning_rate 0.000859
+Timestep 2140000
+mean reward (100 episodes) -14.560000
+best mean reward -14.520000
+episodes 3537
+exploration 0.074350
+learning_rate 0.000857
+Timestep 2150000
+mean reward (100 episodes) -14.590000
+best mean reward -14.520000
+episodes 3553
+exploration 0.074125
+learning_rate 0.000856
+Timestep 2160000
+mean reward (100 episodes) -14.550000
+best mean reward -14.460000
+episodes 3568
+exploration 0.073900
+learning_rate 0.000855
+Timestep 2170000
+mean reward (100 episodes) -14.540000
+best mean reward -14.460000
+episodes 3582
+exploration 0.073675
+learning_rate 0.000854
+Timestep 2180000
+mean reward (100 episodes) -14.730000
+best mean reward -14.460000
+episodes 3596
+exploration 0.073450
+learning_rate 0.000852
+Timestep 2190000
+mean reward (100 episodes) -14.610000
+best mean reward -14.460000
+episodes 3609
+exploration 0.073225
+learning_rate 0.000851
+Timestep 2200000
+mean reward (100 episodes) -14.690000
+best mean reward -14.460000
+episodes 3624
+exploration 0.073000
+learning_rate 0.000850
+Timestep 2210000
+mean reward (100 episodes) -14.870000
+best mean reward -14.460000
+episodes 3638
+exploration 0.072775
+learning_rate 0.000849
+Timestep 2220000
+mean reward (100 episodes) -14.690000
+best mean reward -14.460000
+episodes 3652
+exploration 0.072550
+learning_rate 0.000848
+Timestep 2230000
+mean reward (100 episodes) -14.650000
+best mean reward -14.460000
+episodes 3666
+exploration 0.072325
+learning_rate 0.000846
+Timestep 2240000
+mean reward (100 episodes) -14.810000
+best mean reward -14.460000
+episodes 3680
+exploration 0.072100
+learning_rate 0.000845
+Timestep 2250000
+mean reward (100 episodes) -14.840000
+best mean reward -14.460000
+episodes 3693
+exploration 0.071875
+learning_rate 0.000844
+Timestep 2260000
+mean reward (100 episodes) -14.800000
+best mean reward -14.460000
+episodes 3707
+exploration 0.071650
+learning_rate 0.000843
+Timestep 2270000
+mean reward (100 episodes) -14.400000
+best mean reward -14.400000
+episodes 3719
+exploration 0.071425
+learning_rate 0.000841
+Timestep 2280000
+mean reward (100 episodes) -14.160000
+best mean reward -14.140000
+episodes 3732
+exploration 0.071200
+learning_rate 0.000840
+Timestep 2290000
+mean reward (100 episodes) -14.030000
+best mean reward -14.000000
+episodes 3747
+exploration 0.070975
+learning_rate 0.000839
+Timestep 2300000
+mean reward (100 episodes) -14.230000
+best mean reward -14.000000
+episodes 3762
+exploration 0.070750
+learning_rate 0.000838
+Timestep 2310000
+mean reward (100 episodes) -14.470000
+best mean reward -14.000000
+episodes 3776
+exploration 0.070525
+learning_rate 0.000836
+Timestep 2320000
+mean reward (100 episodes) -14.310000
+best mean reward -14.000000
+episodes 3789
+exploration 0.070300
+learning_rate 0.000835
+Timestep 2330000
+mean reward (100 episodes) -14.600000
+best mean reward -14.000000
+episodes 3803
+exploration 0.070075
+learning_rate 0.000834
+Timestep 2340000
+mean reward (100 episodes) -15.000000
+best mean reward -14.000000
+episodes 3816
+exploration 0.069850
+learning_rate 0.000833
+Timestep 2350000
+mean reward (100 episodes) -15.510000
+best mean reward -14.000000
+episodes 3830
+exploration 0.069625
+learning_rate 0.000831
+Timestep 2360000
+mean reward (100 episodes) -15.820000
+best mean reward -14.000000
+episodes 3843
+exploration 0.069400
+learning_rate 0.000830
+Timestep 2370000
+mean reward (100 episodes) -15.560000
+best mean reward -14.000000
+episodes 3857
+exploration 0.069175
+learning_rate 0.000829
+Timestep 2380000
+mean reward (100 episodes) -15.500000
+best mean reward -14.000000
+episodes 3871
+exploration 0.068950
+learning_rate 0.000828
+Timestep 2390000
+mean reward (100 episodes) -15.310000
+best mean reward -14.000000
+episodes 3885
+exploration 0.068725
+learning_rate 0.000826
+Timestep 2400000
+mean reward (100 episodes) -15.090000
+best mean reward -14.000000
+episodes 3900
+exploration 0.068500
+learning_rate 0.000825
+Timestep 2410000
+mean reward (100 episodes) -15.040000
+best mean reward -14.000000
+episodes 3916
+exploration 0.068275
+learning_rate 0.000824
+Timestep 2420000
+mean reward (100 episodes) -15.030000
+best mean reward -14.000000
+episodes 3929
+exploration 0.068050
+learning_rate 0.000822
+Timestep 2430000
+mean reward (100 episodes) -15.020000
+best mean reward -14.000000
+episodes 3941
+exploration 0.067825
+learning_rate 0.000821
+Timestep 2440000
+mean reward (100 episodes) -15.200000
+best mean reward -14.000000
+episodes 3953
+exploration 0.067600
+learning_rate 0.000820
+Timestep 2450000
+mean reward (100 episodes) -15.300000
+best mean reward -14.000000
+episodes 3967
+exploration 0.067375
+learning_rate 0.000819
+Timestep 2460000
+mean reward (100 episodes) -15.210000
+best mean reward -14.000000
+episodes 3980
+exploration 0.067150
+learning_rate 0.000818
+Timestep 2470000
+mean reward (100 episodes) -15.230000
+best mean reward -14.000000
+episodes 3995
+exploration 0.066925
+learning_rate 0.000816
+Timestep 2480000
+mean reward (100 episodes) -15.190000
+best mean reward -14.000000
+episodes 4008
+exploration 0.066700
+learning_rate 0.000815
+Timestep 2490000
+mean reward (100 episodes) -15.070000
+best mean reward -14.000000
+episodes 4022
+exploration 0.066475
+learning_rate 0.000814
+Timestep 2500000
+mean reward (100 episodes) -14.970000
+best mean reward -14.000000
+episodes 4036
+exploration 0.066250
+learning_rate 0.000813
+Timestep 2510000
+mean reward (100 episodes) -14.760000
+best mean reward -14.000000
+episodes 4048
+exploration 0.066025
+learning_rate 0.000811
+Timestep 2520000
+mean reward (100 episodes) -14.740000
+best mean reward -14.000000
+episodes 4062
+exploration 0.065800
+learning_rate 0.000810
+Timestep 2530000
+mean reward (100 episodes) -14.680000
+best mean reward -14.000000
+episodes 4076
+exploration 0.065575
+learning_rate 0.000809
+Timestep 2540000
+mean reward (100 episodes) -14.820000
+best mean reward -14.000000
+episodes 4091
+exploration 0.065350
+learning_rate 0.000808
+Timestep 2550000
+mean reward (100 episodes) -14.480000
+best mean reward -14.000000
+episodes 4104
+exploration 0.065125
+learning_rate 0.000806
+Timestep 2560000
+mean reward (100 episodes) -14.500000
+best mean reward -14.000000
+episodes 4118
+exploration 0.064900
+learning_rate 0.000805
+Timestep 2570000
+mean reward (100 episodes) -14.520000
+best mean reward -14.000000
+episodes 4130
+exploration 0.064675
+learning_rate 0.000804
+Timestep 2580000
+mean reward (100 episodes) -14.390000
+best mean reward -14.000000
+episodes 4143
+exploration 0.064450
+learning_rate 0.000803
+Timestep 2590000
+mean reward (100 episodes) -14.730000
+best mean reward -14.000000
+episodes 4157
+exploration 0.064225
+learning_rate 0.000801
+Timestep 2600000
+mean reward (100 episodes) -14.870000
+best mean reward -14.000000
+episodes 4173
+exploration 0.064000
+learning_rate 0.000800
+Timestep 2610000
+mean reward (100 episodes) -14.880000
+best mean reward -14.000000
+episodes 4188
+exploration 0.063775
+learning_rate 0.000799
+Timestep 2620000
+mean reward (100 episodes) -15.090000
+best mean reward -14.000000
+episodes 4203
+exploration 0.063550
+learning_rate 0.000798
+Timestep 2630000
+mean reward (100 episodes) -15.170000
+best mean reward -14.000000
+episodes 4216
+exploration 0.063325
+learning_rate 0.000796
+Timestep 2640000
+mean reward (100 episodes) -15.170000
+best mean reward -14.000000
+episodes 4230
+exploration 0.063100
+learning_rate 0.000795
+Timestep 2650000
+mean reward (100 episodes) -15.390000
+best mean reward -14.000000
+episodes 4242
+exploration 0.062875
+learning_rate 0.000794
+Timestep 2660000
+mean reward (100 episodes) -15.260000
+best mean reward -14.000000
+episodes 4255
+exploration 0.062650
+learning_rate 0.000793
+Timestep 2670000
+mean reward (100 episodes) -15.340000
+best mean reward -14.000000
+episodes 4268
+exploration 0.062425
+learning_rate 0.000791
+Timestep 2680000
+mean reward (100 episodes) -15.190000
+best mean reward -14.000000
+episodes 4279
+exploration 0.062200
+learning_rate 0.000790
+Timestep 2690000
+mean reward (100 episodes) -15.150000
+best mean reward -14.000000
+episodes 4293
+exploration 0.061975
+learning_rate 0.000789
+Timestep 2700000
+mean reward (100 episodes) -15.190000
+best mean reward -14.000000
+episodes 4307
+exploration 0.061750
+learning_rate 0.000788
+Timestep 2710000
+mean reward (100 episodes) -15.120000
+best mean reward -14.000000
+episodes 4321
+exploration 0.061525
+learning_rate 0.000786
+Timestep 2720000
+mean reward (100 episodes) -15.290000
+best mean reward -14.000000
+episodes 4333
+exploration 0.061300
+learning_rate 0.000785
+Timestep 2730000
+mean reward (100 episodes) -15.260000
+best mean reward -14.000000
+episodes 4346
+exploration 0.061075
+learning_rate 0.000784
+Timestep 2740000
+mean reward (100 episodes) -15.440000
+best mean reward -14.000000
+episodes 4358
+exploration 0.060850
+learning_rate 0.000782
+Timestep 2750000
+mean reward (100 episodes) -15.320000
+best mean reward -14.000000
+episodes 4371
+exploration 0.060625
+learning_rate 0.000781
+Timestep 2760000
+mean reward (100 episodes) -15.190000
+best mean reward -14.000000
+episodes 4382
+exploration 0.060400
+learning_rate 0.000780
+Timestep 2770000
+mean reward (100 episodes) -15.250000
+best mean reward -14.000000
+episodes 4394
+exploration 0.060175
+learning_rate 0.000779
+Timestep 2780000
+mean reward (100 episodes) -15.280000
+best mean reward -14.000000
+episodes 4405
+exploration 0.059950
+learning_rate 0.000777
+Timestep 2790000
+mean reward (100 episodes) -15.160000
+best mean reward -14.000000
+episodes 4416
+exploration 0.059725
+learning_rate 0.000776
+Timestep 2800000
+mean reward (100 episodes) -15.060000
+best mean reward -14.000000
+episodes 4427
+exploration 0.059500
+learning_rate 0.000775
+Timestep 2810000
+mean reward (100 episodes) -14.710000
+best mean reward -14.000000
+episodes 4441
+exploration 0.059275
+learning_rate 0.000774
+Timestep 2820000
+mean reward (100 episodes) -14.620000
+best mean reward -14.000000
+episodes 4454
+exploration 0.059050
+learning_rate 0.000772
+Timestep 2830000
+mean reward (100 episodes) -14.570000
+best mean reward -14.000000
+episodes 4465
+exploration 0.058825
+learning_rate 0.000771
+Timestep 2840000
+mean reward (100 episodes) -14.940000
+best mean reward -14.000000
+episodes 4477
+exploration 0.058600
+learning_rate 0.000770
+Timestep 2850000
+mean reward (100 episodes) -15.070000
+best mean reward -14.000000
+episodes 4489
+exploration 0.058375
+learning_rate 0.000769
+Timestep 2860000
+mean reward (100 episodes) -15.370000
+best mean reward -14.000000
+episodes 4501
+exploration 0.058150
+learning_rate 0.000767
+Timestep 2870000
+mean reward (100 episodes) -15.430000
+best mean reward -14.000000
+episodes 4514
+exploration 0.057925
+learning_rate 0.000766
+Timestep 2880000
+mean reward (100 episodes) -15.610000
+best mean reward -14.000000
+episodes 4527
+exploration 0.057700
+learning_rate 0.000765
+Timestep 2890000
+mean reward (100 episodes) -15.510000
+best mean reward -14.000000
+episodes 4539
+exploration 0.057475
+learning_rate 0.000764
+Timestep 2900000
+mean reward (100 episodes) -15.710000
+best mean reward -14.000000
+episodes 4552
+exploration 0.057250
+learning_rate 0.000763
+Timestep 2910000
+mean reward (100 episodes) -15.500000
+best mean reward -14.000000
+episodes 4565
+exploration 0.057025
+learning_rate 0.000761
+Timestep 2920000
+mean reward (100 episodes) -15.210000
+best mean reward -14.000000
+episodes 4577
+exploration 0.056800
+learning_rate 0.000760
+Timestep 2930000
+mean reward (100 episodes) -15.080000
+best mean reward -14.000000
+episodes 4589
+exploration 0.056575
+learning_rate 0.000759
+Timestep 2940000
+mean reward (100 episodes) -14.750000
+best mean reward -14.000000
+episodes 4602
+exploration 0.056350
+learning_rate 0.000758
+Timestep 2950000
+mean reward (100 episodes) -14.710000
+best mean reward -14.000000
+episodes 4615
+exploration 0.056125
+learning_rate 0.000756
+Timestep 2960000
+mean reward (100 episodes) -14.480000
+best mean reward -14.000000
+episodes 4627
+exploration 0.055900
+learning_rate 0.000755
+Timestep 2970000
+mean reward (100 episodes) -14.720000
+best mean reward -14.000000
+episodes 4639
+exploration 0.055675
+learning_rate 0.000754
+Timestep 2980000
+mean reward (100 episodes) -14.650000
+best mean reward -14.000000
+episodes 4650
+exploration 0.055450
+learning_rate 0.000753
+Timestep 2990000
+mean reward (100 episodes) -14.770000
+best mean reward -14.000000
+episodes 4663
+exploration 0.055225
+learning_rate 0.000751
+Timestep 3000000
+mean reward (100 episodes) -14.830000
+best mean reward -14.000000
+episodes 4677
+exploration 0.055000
+learning_rate 0.000750
+Timestep 3010000
+mean reward (100 episodes) -14.870000
+best mean reward -14.000000
+episodes 4690
+exploration 0.054775
+learning_rate 0.000749
+Timestep 3020000
+mean reward (100 episodes) -14.770000
+best mean reward -14.000000
+episodes 4702
+exploration 0.054550
+learning_rate 0.000748
+Timestep 3030000
+mean reward (100 episodes) -14.700000
+best mean reward -14.000000
+episodes 4717
+exploration 0.054325
+learning_rate 0.000746
+Timestep 3040000
+mean reward (100 episodes) -14.580000
+best mean reward -14.000000
+episodes 4728
+exploration 0.054100
+learning_rate 0.000745
+Timestep 3050000
+mean reward (100 episodes) -14.310000
+best mean reward -14.000000
+episodes 4739
+exploration 0.053875
+learning_rate 0.000744
+Timestep 3060000
+mean reward (100 episodes) -14.500000
+best mean reward -14.000000
+episodes 4751
+exploration 0.053650
+learning_rate 0.000742
+Timestep 3070000
+mean reward (100 episodes) -14.410000
+best mean reward -14.000000
+episodes 4763
+exploration 0.053425
+learning_rate 0.000741
+Timestep 3080000
+mean reward (100 episodes) -14.180000
+best mean reward -14.000000
+episodes 4774
+exploration 0.053200
+learning_rate 0.000740
+Timestep 3090000
+mean reward (100 episodes) -14.240000
+best mean reward -14.000000
+episodes 4784
+exploration 0.052975
+learning_rate 0.000739
+Timestep 3100000
+mean reward (100 episodes) -14.230000
+best mean reward -14.000000
+episodes 4796
+exploration 0.052750
+learning_rate 0.000737
+Timestep 3110000
+mean reward (100 episodes) -14.470000
+best mean reward -14.000000
+episodes 4809
+exploration 0.052525
+learning_rate 0.000736
+Timestep 3120000
+mean reward (100 episodes) -14.620000
+best mean reward -14.000000
+episodes 4820
+exploration 0.052300
+learning_rate 0.000735
+Timestep 3130000
+mean reward (100 episodes) -14.700000
+best mean reward -14.000000
+episodes 4830
+exploration 0.052075
+learning_rate 0.000734
+Timestep 3140000
+mean reward (100 episodes) -14.710000
+best mean reward -14.000000
+episodes 4842
+exploration 0.051850
+learning_rate 0.000733
+Timestep 3150000
+mean reward (100 episodes) -14.450000
+best mean reward -14.000000
+episodes 4855
+exploration 0.051625
+learning_rate 0.000731
+Timestep 3160000
+mean reward (100 episodes) -14.610000
+best mean reward -14.000000
+episodes 4868
+exploration 0.051400
+learning_rate 0.000730
+Timestep 3170000
+mean reward (100 episodes) -14.450000
+best mean reward -14.000000
+episodes 4880
+exploration 0.051175
+learning_rate 0.000729
+Timestep 3180000
+mean reward (100 episodes) -14.640000
+best mean reward -14.000000
+episodes 4894
+exploration 0.050950
+learning_rate 0.000728
+Timestep 3190000
+mean reward (100 episodes) -14.820000
+best mean reward -14.000000
+episodes 4907
+exploration 0.050725
+learning_rate 0.000726
+Timestep 3200000
+mean reward (100 episodes) -14.900000
+best mean reward -14.000000
+episodes 4921
+exploration 0.050500
+learning_rate 0.000725
+Timestep 3210000
+mean reward (100 episodes) -15.050000
+best mean reward -14.000000
+episodes 4933
+exploration 0.050275
+learning_rate 0.000724
+Timestep 3220000
+mean reward (100 episodes) -14.800000
+best mean reward -14.000000
+episodes 4944
+exploration 0.050050
+learning_rate 0.000723
+Timestep 3230000
+mean reward (100 episodes) -14.760000
+best mean reward -14.000000
+episodes 4957
+exploration 0.049825
+learning_rate 0.000721
+Timestep 3240000
+mean reward (100 episodes) -14.720000
+best mean reward -14.000000
+episodes 4972
+exploration 0.049600
+learning_rate 0.000720
+Timestep 3250000
+mean reward (100 episodes) -14.640000
+best mean reward -14.000000
+episodes 4986
+exploration 0.049375
+learning_rate 0.000719
+Timestep 3260000
+mean reward (100 episodes) -14.630000
+best mean reward -14.000000
+episodes 4999
+exploration 0.049150
+learning_rate 0.000718
+Timestep 3270000
+mean reward (100 episodes) -14.170000
+best mean reward -14.000000
+episodes 5011
+exploration 0.048925
+learning_rate 0.000716
+Timestep 3280000
+mean reward (100 episodes) -13.900000
+best mean reward -13.870000
+episodes 5022
+exploration 0.048700
+learning_rate 0.000715
+Timestep 3290000
+mean reward (100 episodes) -13.760000
+best mean reward -13.730000
+episodes 5032
+exploration 0.048475
+learning_rate 0.000714
+Timestep 3300000
+mean reward (100 episodes) -13.730000
+best mean reward -13.670000
+episodes 5043
+exploration 0.048250
+learning_rate 0.000713
+Timestep 3310000
+mean reward (100 episodes) -13.720000
+best mean reward -13.600000
+episodes 5054
+exploration 0.048025
+learning_rate 0.000711
+Timestep 3320000
+mean reward (100 episodes) -13.700000
+best mean reward -13.600000
+episodes 5065
+exploration 0.047800
+learning_rate 0.000710
+Timestep 3330000
+mean reward (100 episodes) -13.700000
+best mean reward -13.560000
+episodes 5077
+exploration 0.047575
+learning_rate 0.000709
+Timestep 3340000
+mean reward (100 episodes) -13.670000
+best mean reward -13.560000
+episodes 5090
+exploration 0.047350
+learning_rate 0.000708
+Timestep 3350000
+mean reward (100 episodes) -13.670000
+best mean reward -13.560000
+episodes 5102
+exploration 0.047125
+learning_rate 0.000706
+Timestep 3360000
+mean reward (100 episodes) -13.760000
+best mean reward -13.500000
+episodes 5115
+exploration 0.046900
+learning_rate 0.000705
+Timestep 3370000
+mean reward (100 episodes) -13.820000
+best mean reward -13.500000
+episodes 5126
+exploration 0.046675
+learning_rate 0.000704
+Timestep 3380000
+mean reward (100 episodes) -13.820000
+best mean reward -13.500000
+episodes 5137
+exploration 0.046450
+learning_rate 0.000702
+Timestep 3390000
+mean reward (100 episodes) -13.860000
+best mean reward -13.500000
+episodes 5150
+exploration 0.046225
+learning_rate 0.000701
+Timestep 3400000
+mean reward (100 episodes) -13.850000
+best mean reward -13.500000
+episodes 5162
+exploration 0.046000
+learning_rate 0.000700
+Timestep 3410000
+mean reward (100 episodes) -13.930000
+best mean reward -13.500000
+episodes 5174
+exploration 0.045775
+learning_rate 0.000699
+Timestep 3420000
+mean reward (100 episodes) -13.890000
+best mean reward -13.500000
+episodes 5186
+exploration 0.045550
+learning_rate 0.000697
+Timestep 3430000
+mean reward (100 episodes) -13.940000
+best mean reward -13.500000
+episodes 5197
+exploration 0.045325
+learning_rate 0.000696
+Timestep 3440000
+mean reward (100 episodes) -13.980000
+best mean reward -13.500000
+episodes 5208
+exploration 0.045100
+learning_rate 0.000695
+Timestep 3450000
+mean reward (100 episodes) -14.050000
+best mean reward -13.500000
+episodes 5221
+exploration 0.044875
+learning_rate 0.000694
+Timestep 3460000
+mean reward (100 episodes) -14.160000
+best mean reward -13.500000
+episodes 5233
+exploration 0.044650
+learning_rate 0.000692
+Timestep 3470000
+mean reward (100 episodes) -14.560000
+best mean reward -13.500000
+episodes 5245
+exploration 0.044425
+learning_rate 0.000691
+Timestep 3480000
+mean reward (100 episodes) -14.480000
+best mean reward -13.500000
+episodes 5257
+exploration 0.044200
+learning_rate 0.000690
+Timestep 3490000
+mean reward (100 episodes) -14.400000
+best mean reward -13.500000
+episodes 5269
+exploration 0.043975
+learning_rate 0.000689
+Timestep 3500000
+mean reward (100 episodes) -14.490000
+best mean reward -13.500000
+episodes 5280
+exploration 0.043750
+learning_rate 0.000687
+Timestep 3510000
+mean reward (100 episodes) -14.310000
+best mean reward -13.500000
+episodes 5292
+exploration 0.043525
+learning_rate 0.000686
+Timestep 3520000
+mean reward (100 episodes) -14.460000
+best mean reward -13.500000
+episodes 5304
+exploration 0.043300
+learning_rate 0.000685
+Timestep 3530000
+mean reward (100 episodes) -14.460000
+best mean reward -13.500000
+episodes 5315
+exploration 0.043075
+learning_rate 0.000684
+Timestep 3540000
+mean reward (100 episodes) -14.440000
+best mean reward -13.500000
+episodes 5328
+exploration 0.042850
+learning_rate 0.000682
+Timestep 3550000
+mean reward (100 episodes) -14.120000
+best mean reward -13.500000
+episodes 5339
+exploration 0.042625
+learning_rate 0.000681
+Timestep 3560000
+mean reward (100 episodes) -14.190000
+best mean reward -13.500000
+episodes 5352
+exploration 0.042400
+learning_rate 0.000680
+Timestep 3570000
+mean reward (100 episodes) -13.980000
+best mean reward -13.500000
+episodes 5364
+exploration 0.042175
+learning_rate 0.000679
+Timestep 3580000
+mean reward (100 episodes) -13.960000
+best mean reward -13.500000
+episodes 5374
+exploration 0.041950
+learning_rate 0.000677
+Timestep 3590000
+mean reward (100 episodes) -14.120000
+best mean reward -13.500000
+episodes 5386
+exploration 0.041725
+learning_rate 0.000676
+Timestep 3600000
+mean reward (100 episodes) -14.100000
+best mean reward -13.500000
+episodes 5398
+exploration 0.041500
+learning_rate 0.000675
+Timestep 3610000
+mean reward (100 episodes) -14.130000
+best mean reward -13.500000
+episodes 5409
+exploration 0.041275
+learning_rate 0.000674
+Timestep 3620000
+mean reward (100 episodes) -14.170000
+best mean reward -13.500000
+episodes 5420
+exploration 0.041050
+learning_rate 0.000672
+Timestep 3630000
+mean reward (100 episodes) -14.020000
+best mean reward -13.500000
+episodes 5432
+exploration 0.040825
+learning_rate 0.000671
+Timestep 3640000
+mean reward (100 episodes) -14.590000
+best mean reward -13.500000
+episodes 5446
+exploration 0.040600
+learning_rate 0.000670
+Timestep 3650000
+mean reward (100 episodes) -14.680000
+best mean reward -13.500000
+episodes 5459
+exploration 0.040375
+learning_rate 0.000669
+Timestep 3660000
+mean reward (100 episodes) -14.730000
+best mean reward -13.500000
+episodes 5472
+exploration 0.040150
+learning_rate 0.000668
+Timestep 3670000
+mean reward (100 episodes) -14.660000
+best mean reward -13.500000
+episodes 5484
+exploration 0.039925
+learning_rate 0.000666
+Timestep 3680000
+mean reward (100 episodes) -14.530000
+best mean reward -13.500000
+episodes 5494
+exploration 0.039700
+learning_rate 0.000665
+Timestep 3690000
+mean reward (100 episodes) -14.200000
+best mean reward -13.500000
+episodes 5505
+exploration 0.039475
+learning_rate 0.000664
+Timestep 3700000
+mean reward (100 episodes) -14.130000
+best mean reward -13.500000
+episodes 5517
+exploration 0.039250
+learning_rate 0.000663
+Timestep 3710000
+mean reward (100 episodes) -14.230000
+best mean reward -13.500000
+episodes 5530
+exploration 0.039025
+learning_rate 0.000661
+Timestep 3720000
+mean reward (100 episodes) -14.000000
+best mean reward -13.500000
+episodes 5542
+exploration 0.038800
+learning_rate 0.000660
+Timestep 3730000
+mean reward (100 episodes) -14.190000
+best mean reward -13.500000
+episodes 5553
+exploration 0.038575
+learning_rate 0.000659
+Timestep 3740000
+mean reward (100 episodes) -14.240000
+best mean reward -13.500000
+episodes 5563
+exploration 0.038350
+learning_rate 0.000657
+Timestep 3750000
+mean reward (100 episodes) -14.350000
+best mean reward -13.500000
+episodes 5574
+exploration 0.038125
+learning_rate 0.000656
+Timestep 3760000
+mean reward (100 episodes) -14.350000
+best mean reward -13.500000
+episodes 5585
+exploration 0.037900
+learning_rate 0.000655
+Timestep 3770000
+mean reward (100 episodes) -14.370000
+best mean reward -13.500000
+episodes 5597
+exploration 0.037675
+learning_rate 0.000654
+Timestep 3780000
+mean reward (100 episodes) -14.480000
+best mean reward -13.500000
+episodes 5609
+exploration 0.037450
+learning_rate 0.000653
+Timestep 3790000
+mean reward (100 episodes) -14.700000
+best mean reward -13.500000
+episodes 5622
+exploration 0.037225
+learning_rate 0.000651
+Timestep 3800000
+mean reward (100 episodes) -14.740000
+best mean reward -13.500000
+episodes 5633
+exploration 0.037000
+learning_rate 0.000650
+Timestep 3810000
+mean reward (100 episodes) -14.690000
+best mean reward -13.500000
+episodes 5646
+exploration 0.036775
+learning_rate 0.000649
+Timestep 3820000
+mean reward (100 episodes) -14.390000
+best mean reward -13.500000
+episodes 5657
+exploration 0.036550
+learning_rate 0.000648
+Timestep 3830000
+mean reward (100 episodes) -14.170000
+best mean reward -13.500000
+episodes 5669
+exploration 0.036325
+learning_rate 0.000646
+Timestep 3840000
+mean reward (100 episodes) -14.290000
+best mean reward -13.500000
+episodes 5682
+exploration 0.036100
+learning_rate 0.000645
+Timestep 3850000
+mean reward (100 episodes) -14.340000
+best mean reward -13.500000
+episodes 5694
+exploration 0.035875
+learning_rate 0.000644
+Timestep 3860000
+mean reward (100 episodes) -14.670000
+best mean reward -13.500000
+episodes 5710
+exploration 0.035650
+learning_rate 0.000643
+Timestep 3870000
+mean reward (100 episodes) -14.730000
+best mean reward -13.500000
+episodes 5724
+exploration 0.035425
+learning_rate 0.000641
+Timestep 3880000
+mean reward (100 episodes) -14.570000
+best mean reward -13.500000
+episodes 5735
+exploration 0.035200
+learning_rate 0.000640
+Timestep 3890000
+mean reward (100 episodes) -14.740000
+best mean reward -13.500000
+episodes 5748
+exploration 0.034975
+learning_rate 0.000639
+Timestep 3900000
+mean reward (100 episodes) -14.670000
+best mean reward -13.500000
+episodes 5760
+exploration 0.034750
+learning_rate 0.000638
+Timestep 3910000
+mean reward (100 episodes) -14.770000
+best mean reward -13.500000
+episodes 5771
+exploration 0.034525
+learning_rate 0.000636
+Timestep 3920000
+mean reward (100 episodes) -14.620000
+best mean reward -13.500000
+episodes 5782
+exploration 0.034300
+learning_rate 0.000635
+Timestep 3930000
+mean reward (100 episodes) -14.770000
+best mean reward -13.500000
+episodes 5792
+exploration 0.034075
+learning_rate 0.000634
+Timestep 3940000
+mean reward (100 episodes) -14.630000
+best mean reward -13.500000
+episodes 5803
+exploration 0.033850
+learning_rate 0.000633
+Timestep 3950000
+mean reward (100 episodes) -14.380000
+best mean reward -13.500000
+episodes 5815
+exploration 0.033625
+learning_rate 0.000631
+Timestep 3960000
+mean reward (100 episodes) -14.050000
+best mean reward -13.500000
+episodes 5827
+exploration 0.033400
+learning_rate 0.000630
+Timestep 3970000
+mean reward (100 episodes) -14.120000
+best mean reward -13.500000
+episodes 5838
+exploration 0.033175
+learning_rate 0.000629
+Timestep 3980000
+mean reward (100 episodes) -13.610000
+best mean reward -13.500000
+episodes 5848
+exploration 0.032950
+learning_rate 0.000628
+Timestep 3990000
+mean reward (100 episodes) -13.610000
+best mean reward -13.470000
+episodes 5858
+exploration 0.032725
+learning_rate 0.000626
+Timestep 4000000
+mean reward (100 episodes) -13.620000
+best mean reward -13.470000
+episodes 5869
+exploration 0.032500
+learning_rate 0.000625
+Timestep 4010000
+mean reward (100 episodes) -13.760000
+best mean reward -13.470000
+episodes 5883
+exploration 0.032275
+learning_rate 0.000624
+Timestep 4020000
+mean reward (100 episodes) -13.600000
+best mean reward -13.470000
+episodes 5897
+exploration 0.032050
+learning_rate 0.000623
+Timestep 4030000
+mean reward (100 episodes) -13.750000
+best mean reward -13.470000
+episodes 5910
+exploration 0.031825
+learning_rate 0.000621
+Timestep 4040000
+mean reward (100 episodes) -13.480000
+best mean reward -13.400000
+episodes 5922
+exploration 0.031600
+learning_rate 0.000620
+Timestep 4050000
+mean reward (100 episodes) -13.810000
+best mean reward -13.400000
+episodes 5934
+exploration 0.031375
+learning_rate 0.000619
+Timestep 4060000
+mean reward (100 episodes) -14.110000
+best mean reward -13.400000
+episodes 5946
+exploration 0.031150
+learning_rate 0.000617
+Timestep 4070000
+mean reward (100 episodes) -14.330000
+best mean reward -13.400000
+episodes 5959
+exploration 0.030925
+learning_rate 0.000616
+Timestep 4080000
+mean reward (100 episodes) -14.400000
+best mean reward -13.400000
+episodes 5971
+exploration 0.030700
+learning_rate 0.000615
+Timestep 4090000
+mean reward (100 episodes) -14.310000
+best mean reward -13.400000
+episodes 5983
+exploration 0.030475
+learning_rate 0.000614
+Timestep 4100000
+mean reward (100 episodes) -14.280000
+best mean reward -13.400000
+episodes 5996
+exploration 0.030250
+learning_rate 0.000612
+Timestep 4110000
+mean reward (100 episodes) -14.060000
+best mean reward -13.400000
+episodes 6008
+exploration 0.030025
+learning_rate 0.000611
+Timestep 4120000
+mean reward (100 episodes) -13.900000
+best mean reward -13.400000
+episodes 6020
+exploration 0.029800
+learning_rate 0.000610
+Timestep 4130000
+mean reward (100 episodes) -13.930000
+best mean reward -13.400000
+episodes 6032
+exploration 0.029575
+learning_rate 0.000609
+Timestep 4140000
+mean reward (100 episodes) -13.890000
+best mean reward -13.400000
+episodes 6043
+exploration 0.029350
+learning_rate 0.000607
+Timestep 4150000
+mean reward (100 episodes) -13.510000
+best mean reward -13.400000
+episodes 6052
+exploration 0.029125
+learning_rate 0.000606
+Timestep 4160000
+mean reward (100 episodes) -13.490000
+best mean reward -13.400000
+episodes 6063
+exploration 0.028900
+learning_rate 0.000605
+Timestep 4170000
+mean reward (100 episodes) -13.190000
+best mean reward -13.190000
+episodes 6073
+exploration 0.028675
+learning_rate 0.000604
+Timestep 4180000
+mean reward (100 episodes) -13.080000
+best mean reward -13.080000
+episodes 6083
+exploration 0.028450
+learning_rate 0.000602
+Timestep 4190000
+mean reward (100 episodes) -13.040000
+best mean reward -12.920000
+episodes 6094
+exploration 0.028225
+learning_rate 0.000601
+Timestep 4200000
+mean reward (100 episodes) -13.020000
+best mean reward -12.920000
+episodes 6105
+exploration 0.028000
+learning_rate 0.000600
+Timestep 4210000
+mean reward (100 episodes) -13.370000
+best mean reward -12.920000
+episodes 6116
+exploration 0.027775
+learning_rate 0.000599
+Timestep 4220000
+mean reward (100 episodes) -13.150000
+best mean reward -12.920000
+episodes 6126
+exploration 0.027550
+learning_rate 0.000597
+Timestep 4230000
+mean reward (100 episodes) -13.280000
+best mean reward -12.920000
+episodes 6138
+exploration 0.027325
+learning_rate 0.000596
+Timestep 4240000
+mean reward (100 episodes) -13.160000
+best mean reward -12.920000
+episodes 6149
+exploration 0.027100
+learning_rate 0.000595
+Timestep 4250000
+mean reward (100 episodes) -13.370000
+best mean reward -12.920000
+episodes 6161
+exploration 0.026875
+learning_rate 0.000594
+Timestep 4260000
+mean reward (100 episodes) -13.550000
+best mean reward -12.920000
+episodes 6171
+exploration 0.026650
+learning_rate 0.000593
+Timestep 4270000
+mean reward (100 episodes) -13.860000
+best mean reward -12.920000
+episodes 6183
+exploration 0.026425
+learning_rate 0.000591
+Timestep 4280000
+mean reward (100 episodes) -13.950000
+best mean reward -12.920000
+episodes 6196
+exploration 0.026200
+learning_rate 0.000590
+Timestep 4290000
+mean reward (100 episodes) -13.920000
+best mean reward -12.920000
+episodes 6208
+exploration 0.025975
+learning_rate 0.000589
+Timestep 4300000
+mean reward (100 episodes) -13.840000
+best mean reward -12.920000
+episodes 6219
+exploration 0.025750
+learning_rate 0.000588
+Timestep 4310000
+mean reward (100 episodes) -13.740000
+best mean reward -12.920000
+episodes 6229
+exploration 0.025525
+learning_rate 0.000586
+Timestep 4320000
+mean reward (100 episodes) -13.980000
+best mean reward -12.920000
+episodes 6241
+exploration 0.025300
+learning_rate 0.000585
+Timestep 4330000
+mean reward (100 episodes) -13.960000
+best mean reward -12.920000
+episodes 6252
+exploration 0.025075
+learning_rate 0.000584
+Timestep 4340000
+mean reward (100 episodes) -13.770000
+best mean reward -12.920000
+episodes 6262
+exploration 0.024850
+learning_rate 0.000583
+Timestep 4350000
+mean reward (100 episodes) -14.040000
+best mean reward -12.920000
+episodes 6274
+exploration 0.024625
+learning_rate 0.000581
+Timestep 4360000
+mean reward (100 episodes) -13.700000
+best mean reward -12.920000
+episodes 6284
+exploration 0.024400
+learning_rate 0.000580
+Timestep 4370000
+mean reward (100 episodes) -13.690000
+best mean reward -12.920000
+episodes 6295
+exploration 0.024175
+learning_rate 0.000579
+Timestep 4380000
+mean reward (100 episodes) -13.620000
+best mean reward -12.920000
+episodes 6306
+exploration 0.023950
+learning_rate 0.000578
+Timestep 4390000
+mean reward (100 episodes) -13.710000
+best mean reward -12.920000
+episodes 6318
+exploration 0.023725
+learning_rate 0.000576
+Timestep 4400000
+mean reward (100 episodes) -13.900000
+best mean reward -12.920000
+episodes 6329
+exploration 0.023500
+learning_rate 0.000575
+Timestep 4410000
+mean reward (100 episodes) -13.740000
+best mean reward -12.920000
+episodes 6340
+exploration 0.023275
+learning_rate 0.000574
+Timestep 4420000
+mean reward (100 episodes) -13.690000
+best mean reward -12.920000
+episodes 6351
+exploration 0.023050
+learning_rate 0.000573
+Timestep 4430000
+mean reward (100 episodes) -13.760000
+best mean reward -12.920000
+episodes 6363
+exploration 0.022825
+learning_rate 0.000571
+Timestep 4440000
+mean reward (100 episodes) -13.510000
+best mean reward -12.920000
+episodes 6373
+exploration 0.022600
+learning_rate 0.000570
+Timestep 4450000
+mean reward (100 episodes) -13.680000
+best mean reward -12.920000
+episodes 6385
+exploration 0.022375
+learning_rate 0.000569
+Timestep 4460000
+mean reward (100 episodes) -13.670000
+best mean reward -12.920000
+episodes 6395
+exploration 0.022150
+learning_rate 0.000568
+Timestep 4470000
+mean reward (100 episodes) -13.660000
+best mean reward -12.920000
+episodes 6407
+exploration 0.021925
+learning_rate 0.000566
+Timestep 4480000
+mean reward (100 episodes) -13.600000
+best mean reward -12.920000
+episodes 6418
+exploration 0.021700
+learning_rate 0.000565
+Timestep 4490000
+mean reward (100 episodes) -13.440000
+best mean reward -12.920000
+episodes 6429
+exploration 0.021475
+learning_rate 0.000564
+Timestep 4500000
+mean reward (100 episodes) -13.300000
+best mean reward -12.920000
+episodes 6439
+exploration 0.021250
+learning_rate 0.000563
+Timestep 4510000
+mean reward (100 episodes) -13.170000
+best mean reward -12.920000
+episodes 6449
+exploration 0.021025
+learning_rate 0.000561
+Timestep 4520000
+mean reward (100 episodes) -12.930000
+best mean reward -12.920000
+episodes 6459
+exploration 0.020800
+learning_rate 0.000560
+Timestep 4530000
+mean reward (100 episodes) -13.030000
+best mean reward -12.920000
+episodes 6470
+exploration 0.020575
+learning_rate 0.000559
+Timestep 4540000
+mean reward (100 episodes) -12.680000
+best mean reward -12.680000
+episodes 6480
+exploration 0.020350
+learning_rate 0.000558
+Timestep 4550000
+mean reward (100 episodes) -12.540000
+best mean reward -12.540000
+episodes 6490
+exploration 0.020125
+learning_rate 0.000556
+Timestep 4560000
+mean reward (100 episodes) -12.730000
+best mean reward -12.540000
+episodes 6502
+exploration 0.019900
+learning_rate 0.000555
+Timestep 4570000
+mean reward (100 episodes) -12.600000
+best mean reward -12.540000
+episodes 6512
+exploration 0.019675
+learning_rate 0.000554
+Timestep 4580000
+mean reward (100 episodes) -12.520000
+best mean reward -12.490000
+episodes 6524
+exploration 0.019450
+learning_rate 0.000553
+Timestep 4590000
+mean reward (100 episodes) -12.600000
+best mean reward -12.450000
+episodes 6534
+exploration 0.019225
+learning_rate 0.000551
+Timestep 4600000
+mean reward (100 episodes) -12.580000
+best mean reward -12.450000
+episodes 6545
+exploration 0.019000
+learning_rate 0.000550
+Timestep 4610000
+mean reward (100 episodes) -12.900000
+best mean reward -12.450000
+episodes 6558
+exploration 0.018775
+learning_rate 0.000549
+Timestep 4620000
+mean reward (100 episodes) -12.980000
+best mean reward -12.450000
+episodes 6570
+exploration 0.018550
+learning_rate 0.000548
+Timestep 4630000
+mean reward (100 episodes) -13.080000
+best mean reward -12.450000
+episodes 6581
+exploration 0.018325
+learning_rate 0.000546
+Timestep 4640000
+mean reward (100 episodes) -13.590000
+best mean reward -12.450000
+episodes 6595
+exploration 0.018100
+learning_rate 0.000545
+Timestep 4650000
+mean reward (100 episodes) -13.570000
+best mean reward -12.450000
+episodes 6606
+exploration 0.017875
+learning_rate 0.000544
+Timestep 4660000
+mean reward (100 episodes) -13.580000
+best mean reward -12.450000
+episodes 6617
+exploration 0.017650
+learning_rate 0.000543
+Timestep 4670000
+mean reward (100 episodes) -13.440000
+best mean reward -12.450000
+episodes 6627
+exploration 0.017425
+learning_rate 0.000541
+Timestep 4680000
+mean reward (100 episodes) -13.320000
+best mean reward -12.450000
+episodes 6637
+exploration 0.017200
+learning_rate 0.000540
+Timestep 4690000
+mean reward (100 episodes) -13.290000
+best mean reward -12.450000
+episodes 6648
+exploration 0.016975
+learning_rate 0.000539
+Timestep 4700000
+mean reward (100 episodes) -13.120000
+best mean reward -12.450000
+episodes 6660
+exploration 0.016750
+learning_rate 0.000538
+Timestep 4710000
+mean reward (100 episodes) -12.940000
+best mean reward -12.450000
+episodes 6670
+exploration 0.016525
+learning_rate 0.000536
+Timestep 4720000
+mean reward (100 episodes) -12.930000
+best mean reward -12.450000
+episodes 6682
+exploration 0.016300
+learning_rate 0.000535
+Timestep 4730000
+mean reward (100 episodes) -12.640000
+best mean reward -12.450000
+episodes 6691
+exploration 0.016075
+learning_rate 0.000534
+Timestep 4740000
+mean reward (100 episodes) -11.990000
+best mean reward -11.930000
+episodes 6700
+exploration 0.015850
+learning_rate 0.000532
+Timestep 4750000
+mean reward (100 episodes) -11.950000
+best mean reward -11.880000
+episodes 6711
+exploration 0.015625
+learning_rate 0.000531
+Timestep 4760000
+mean reward (100 episodes) -12.190000
+best mean reward -11.880000
+episodes 6722
+exploration 0.015400
+learning_rate 0.000530
+Timestep 4770000
+mean reward (100 episodes) -12.100000
+best mean reward -11.880000
+episodes 6732
+exploration 0.015175
+learning_rate 0.000529
+Timestep 4780000
+mean reward (100 episodes) -12.130000
+best mean reward -11.880000
+episodes 6741
+exploration 0.014950
+learning_rate 0.000527
+Timestep 4790000
+mean reward (100 episodes) -11.980000
+best mean reward -11.880000
+episodes 6751
+exploration 0.014725
+learning_rate 0.000526
+Timestep 4800000
+mean reward (100 episodes) -12.060000
+best mean reward -11.880000
+episodes 6762
+exploration 0.014500
+learning_rate 0.000525
+Timestep 4810000
+mean reward (100 episodes) -12.300000
+best mean reward -11.880000
+episodes 6774
+exploration 0.014275
+learning_rate 0.000524
+Timestep 4820000
+mean reward (100 episodes) -12.240000
+best mean reward -11.880000
+episodes 6783
+exploration 0.014050
+learning_rate 0.000522
+Timestep 4830000
+mean reward (100 episodes) -12.330000
+best mean reward -11.880000
+episodes 6794
+exploration 0.013825
+learning_rate 0.000521
+Timestep 4840000
+mean reward (100 episodes) -12.640000
+best mean reward -11.880000
+episodes 6806
+exploration 0.013600
+learning_rate 0.000520
+Timestep 4850000
+mean reward (100 episodes) -12.440000
+best mean reward -11.880000
+episodes 6815
+exploration 0.013375
+learning_rate 0.000519
+Timestep 4860000
+mean reward (100 episodes) -12.600000
+best mean reward -11.880000
+episodes 6826
+exploration 0.013150
+learning_rate 0.000517
+Timestep 4870000
+mean reward (100 episodes) -12.780000
+best mean reward -11.880000
+episodes 6837
+exploration 0.012925
+learning_rate 0.000516
+Timestep 4880000
+mean reward (100 episodes) -12.920000
+best mean reward -11.880000
+episodes 6847
+exploration 0.012700
+learning_rate 0.000515
+Timestep 4890000
+mean reward (100 episodes) -12.860000
+best mean reward -11.880000
+episodes 6858
+exploration 0.012475
+learning_rate 0.000514
+Timestep 4900000
+mean reward (100 episodes) -12.950000
+best mean reward -11.880000
+episodes 6869
+exploration 0.012250
+learning_rate 0.000513
+Timestep 4910000
+mean reward (100 episodes) -12.580000
+best mean reward -11.880000
+episodes 6878
+exploration 0.012025
+learning_rate 0.000511
+Timestep 4920000
+mean reward (100 episodes) -12.250000
+best mean reward -11.880000
+episodes 6887
+exploration 0.011800
+learning_rate 0.000510
+Timestep 4930000
+mean reward (100 episodes) -11.980000
+best mean reward -11.880000
+episodes 6897
+exploration 0.011575
+learning_rate 0.000509
+Timestep 4940000
+mean reward (100 episodes) -12.020000
+best mean reward -11.880000
+episodes 6908
+exploration 0.011350
+learning_rate 0.000508
+Timestep 4950000
+mean reward (100 episodes) -12.060000
+best mean reward -11.880000
+episodes 6918
+exploration 0.011125
+learning_rate 0.000506
+Timestep 4960000
+mean reward (100 episodes) -12.060000
+best mean reward -11.880000
+episodes 6931
+exploration 0.010900
+learning_rate 0.000505
+Timestep 4970000
+mean reward (100 episodes) -11.970000
+best mean reward -11.860000
+episodes 6941
+exploration 0.010675
+learning_rate 0.000504
+Timestep 4980000
+mean reward (100 episodes) -12.000000
+best mean reward -11.860000
+episodes 6952
+exploration 0.010450
+learning_rate 0.000503
+Timestep 4990000
+mean reward (100 episodes) -11.930000
+best mean reward -11.860000
+episodes 6962
+exploration 0.010225
+learning_rate 0.000501
+Timestep 5000000
+mean reward (100 episodes) -12.200000
+best mean reward -11.790000
+episodes 6974
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5010000
+mean reward (100 episodes) -12.450000
+best mean reward -11.790000
+episodes 6985
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5020000
+mean reward (100 episodes) -12.770000
+best mean reward -11.790000
+episodes 6996
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5030000
+mean reward (100 episodes) -13.010000
+best mean reward -11.790000
+episodes 7009
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5040000
+mean reward (100 episodes) -13.280000
+best mean reward -11.790000
+episodes 7021
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5050000
+mean reward (100 episodes) -13.220000
+best mean reward -11.790000
+episodes 7033
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5060000
+mean reward (100 episodes) -13.510000
+best mean reward -11.790000
+episodes 7045
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5070000
+mean reward (100 episodes) -13.600000
+best mean reward -11.790000
+episodes 7056
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5080000
+mean reward (100 episodes) -13.720000
+best mean reward -11.790000
+episodes 7067
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5090000
+mean reward (100 episodes) -13.510000
+best mean reward -11.790000
+episodes 7078
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5100000
+mean reward (100 episodes) -13.250000
+best mean reward -11.790000
+episodes 7088
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5110000
+mean reward (100 episodes) -13.220000
+best mean reward -11.790000
+episodes 7100
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5120000
+mean reward (100 episodes) -12.910000
+best mean reward -11.790000
+episodes 7111
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5130000
+mean reward (100 episodes) -12.570000
+best mean reward -11.790000
+episodes 7121
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5140000
+mean reward (100 episodes) -12.420000
+best mean reward -11.790000
+episodes 7131
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5150000
+mean reward (100 episodes) -12.270000
+best mean reward -11.790000
+episodes 7140
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5160000
+mean reward (100 episodes) -12.390000
+best mean reward -11.790000
+episodes 7152
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5170000
+mean reward (100 episodes) -12.240000
+best mean reward -11.790000
+episodes 7163
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5180000
+mean reward (100 episodes) -12.210000
+best mean reward -11.790000
+episodes 7173
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5190000
+mean reward (100 episodes) -11.800000
+best mean reward -11.790000
+episodes 7183
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5200000
+mean reward (100 episodes) -11.670000
+best mean reward -11.670000
+episodes 7193
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5210000
+mean reward (100 episodes) -11.140000
+best mean reward -11.140000
+episodes 7202
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5220000
+mean reward (100 episodes) -11.690000
+best mean reward -11.110000
+episodes 7214
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5230000
+mean reward (100 episodes) -11.450000
+best mean reward -11.110000
+episodes 7224
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5240000
+mean reward (100 episodes) -11.160000
+best mean reward -11.110000
+episodes 7233
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5250000
+mean reward (100 episodes) -11.410000
+best mean reward -11.110000
+episodes 7244
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5260000
+mean reward (100 episodes) -11.240000
+best mean reward -11.110000
+episodes 7255
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5270000
+mean reward (100 episodes) -10.930000
+best mean reward -10.930000
+episodes 7265
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5280000
+mean reward (100 episodes) -11.060000
+best mean reward -10.880000
+episodes 7276
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5290000
+mean reward (100 episodes) -11.330000
+best mean reward -10.880000
+episodes 7288
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5300000
+mean reward (100 episodes) -11.830000
+best mean reward -10.880000
+episodes 7300
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5310000
+mean reward (100 episodes) -11.550000
+best mean reward -10.880000
+episodes 7310
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5320000
+mean reward (100 episodes) -11.240000
+best mean reward -10.880000
+episodes 7320
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5330000
+mean reward (100 episodes) -11.460000
+best mean reward -10.880000
+episodes 7331
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5340000
+mean reward (100 episodes) -11.320000
+best mean reward -10.880000
+episodes 7342
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5350000
+mean reward (100 episodes) -10.950000
+best mean reward -10.880000
+episodes 7352
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5360000
+mean reward (100 episodes) -11.080000
+best mean reward -10.880000
+episodes 7361
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5370000
+mean reward (100 episodes) -11.240000
+best mean reward -10.880000
+episodes 7373
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5380000
+mean reward (100 episodes) -11.240000
+best mean reward -10.880000
+episodes 7383
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5390000
+mean reward (100 episodes) -11.200000
+best mean reward -10.880000
+episodes 7395
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5400000
+mean reward (100 episodes) -11.110000
+best mean reward -10.880000
+episodes 7405
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5410000
+mean reward (100 episodes) -11.620000
+best mean reward -10.880000
+episodes 7417
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5420000
+mean reward (100 episodes) -11.910000
+best mean reward -10.880000
+episodes 7428
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5430000
+mean reward (100 episodes) -11.740000
+best mean reward -10.880000
+episodes 7439
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5440000
+mean reward (100 episodes) -11.680000
+best mean reward -10.880000
+episodes 7450
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5450000
+mean reward (100 episodes) -12.040000
+best mean reward -10.880000
+episodes 7461
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5460000
+mean reward (100 episodes) -11.820000
+best mean reward -10.880000
+episodes 7471
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5470000
+mean reward (100 episodes) -11.710000
+best mean reward -10.880000
+episodes 7480
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5480000
+mean reward (100 episodes) -11.340000
+best mean reward -10.880000
+episodes 7490
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5490000
+mean reward (100 episodes) -11.830000
+best mean reward -10.880000
+episodes 7503
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5500000
+mean reward (100 episodes) -11.640000
+best mean reward -10.880000
+episodes 7513
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5510000
+mean reward (100 episodes) -11.570000
+best mean reward -10.880000
+episodes 7522
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5520000
+mean reward (100 episodes) -11.350000
+best mean reward -10.880000
+episodes 7531
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5530000
+mean reward (100 episodes) -10.930000
+best mean reward -10.880000
+episodes 7541
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5540000
+mean reward (100 episodes) -11.060000
+best mean reward -10.880000
+episodes 7551
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5550000
+mean reward (100 episodes) -11.170000
+best mean reward -10.880000
+episodes 7563
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5560000
+mean reward (100 episodes) -11.300000
+best mean reward -10.880000
+episodes 7574
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5570000
+mean reward (100 episodes) -11.500000
+best mean reward -10.880000
+episodes 7585
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5580000
+mean reward (100 episodes) -11.370000
+best mean reward -10.880000
+episodes 7594
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5590000
+mean reward (100 episodes) -10.670000
+best mean reward -10.670000
+episodes 7604
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5600000
+mean reward (100 episodes) -10.720000
+best mean reward -10.600000
+episodes 7614
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5610000
+mean reward (100 episodes) -11.030000
+best mean reward -10.600000
+episodes 7625
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5620000
+mean reward (100 episodes) -11.090000
+best mean reward -10.600000
+episodes 7635
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5630000
+mean reward (100 episodes) -11.230000
+best mean reward -10.600000
+episodes 7646
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5640000
+mean reward (100 episodes) -11.050000
+best mean reward -10.600000
+episodes 7657
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5650000
+mean reward (100 episodes) -11.050000
+best mean reward -10.600000
+episodes 7667
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5660000
+mean reward (100 episodes) -11.120000
+best mean reward -10.600000
+episodes 7678
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5670000
+mean reward (100 episodes) -11.160000
+best mean reward -10.600000
+episodes 7688
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5680000
+mean reward (100 episodes) -11.220000
+best mean reward -10.600000
+episodes 7700
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5690000
+mean reward (100 episodes) -11.820000
+best mean reward -10.600000
+episodes 7712
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5700000
+mean reward (100 episodes) -11.420000
+best mean reward -10.600000
+episodes 7722
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5710000
+mean reward (100 episodes) -11.560000
+best mean reward -10.600000
+episodes 7733
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5720000
+mean reward (100 episodes) -11.420000
+best mean reward -10.600000
+episodes 7743
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5730000
+mean reward (100 episodes) -11.090000
+best mean reward -10.600000
+episodes 7753
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5740000
+mean reward (100 episodes) -10.960000
+best mean reward -10.600000
+episodes 7764
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5750000
+mean reward (100 episodes) -10.680000
+best mean reward -10.600000
+episodes 7775
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5760000
+mean reward (100 episodes) -10.920000
+best mean reward -10.600000
+episodes 7786
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5770000
+mean reward (100 episodes) -10.970000
+best mean reward -10.600000
+episodes 7797
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5780000
+mean reward (100 episodes) -10.770000
+best mean reward -10.600000
+episodes 7808
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5790000
+mean reward (100 episodes) -10.400000
+best mean reward -10.400000
+episodes 7817
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5800000
+mean reward (100 episodes) -10.510000
+best mean reward -10.360000
+episodes 7826
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5810000
+mean reward (100 episodes) -10.470000
+best mean reward -10.190000
+episodes 7838
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5820000
+mean reward (100 episodes) -10.900000
+best mean reward -10.190000
+episodes 7849
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5830000
+mean reward (100 episodes) -11.040000
+best mean reward -10.190000
+episodes 7859
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5840000
+mean reward (100 episodes) -11.140000
+best mean reward -10.190000
+episodes 7869
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5850000
+mean reward (100 episodes) -11.050000
+best mean reward -10.190000
+episodes 7880
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5860000
+mean reward (100 episodes) -10.980000
+best mean reward -10.190000
+episodes 7891
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5870000
+mean reward (100 episodes) -10.780000
+best mean reward -10.190000
+episodes 7901
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5880000
+mean reward (100 episodes) -10.930000
+best mean reward -10.190000
+episodes 7912
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5890000
+mean reward (100 episodes) -11.040000
+best mean reward -10.190000
+episodes 7923
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5900000
+mean reward (100 episodes) -11.150000
+best mean reward -10.190000
+episodes 7933
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5910000
+mean reward (100 episodes) -11.110000
+best mean reward -10.190000
+episodes 7943
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5920000
+mean reward (100 episodes) -11.300000
+best mean reward -10.190000
+episodes 7955
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5930000
+mean reward (100 episodes) -11.380000
+best mean reward -10.190000
+episodes 7966
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5940000
+mean reward (100 episodes) -11.470000
+best mean reward -10.190000
+episodes 7976
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5950000
+mean reward (100 episodes) -11.240000
+best mean reward -10.190000
+episodes 7986
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5960000
+mean reward (100 episodes) -11.260000
+best mean reward -10.190000
+episodes 7998
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5970000
+mean reward (100 episodes) -11.210000
+best mean reward -10.190000
+episodes 8007
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5980000
+mean reward (100 episodes) -11.450000
+best mean reward -10.190000
+episodes 8018
+exploration 0.010000
+learning_rate 0.000500
+Timestep 5990000
+mean reward (100 episodes) -11.790000
+best mean reward -10.190000
+episodes 8029
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6000000
+mean reward (100 episodes) -11.790000
+best mean reward -10.190000
+episodes 8040
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6010000
+mean reward (100 episodes) -11.590000
+best mean reward -10.190000
+episodes 8051
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6020000
+mean reward (100 episodes) -11.650000
+best mean reward -10.190000
+episodes 8063
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6030000
+mean reward (100 episodes) -11.740000
+best mean reward -10.190000
+episodes 8075
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6040000
+mean reward (100 episodes) -11.910000
+best mean reward -10.190000
+episodes 8087
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6050000
+mean reward (100 episodes) -11.980000
+best mean reward -10.190000
+episodes 8099
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6060000
+mean reward (100 episodes) -11.900000
+best mean reward -10.190000
+episodes 8109
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6070000
+mean reward (100 episodes) -11.460000
+best mean reward -10.190000
+episodes 8119
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6080000
+mean reward (100 episodes) -11.200000
+best mean reward -10.190000
+episodes 8129
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6090000
+mean reward (100 episodes) -11.200000
+best mean reward -10.190000
+episodes 8138
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6100000
+mean reward (100 episodes) -11.090000
+best mean reward -10.190000
+episodes 8149
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6110000
+mean reward (100 episodes) -11.190000
+best mean reward -10.190000
+episodes 8160
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6120000
+mean reward (100 episodes) -11.170000
+best mean reward -10.190000
+episodes 8172
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6130000
+mean reward (100 episodes) -10.950000
+best mean reward -10.190000
+episodes 8183
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6140000
+mean reward (100 episodes) -10.540000
+best mean reward -10.190000
+episodes 8193
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6150000
+mean reward (100 episodes) -10.180000
+best mean reward -10.180000
+episodes 8202
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6160000
+mean reward (100 episodes) -10.360000
+best mean reward -10.180000
+episodes 8213
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6170000
+mean reward (100 episodes) -10.530000
+best mean reward -10.180000
+episodes 8224
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6180000
+mean reward (100 episodes) -10.240000
+best mean reward -10.180000
+episodes 8234
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6190000
+mean reward (100 episodes) -10.410000
+best mean reward -10.080000
+episodes 8245
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6200000
+mean reward (100 episodes) -10.110000
+best mean reward -10.080000
+episodes 8256
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6210000
+mean reward (100 episodes) -10.100000
+best mean reward -10.010000
+episodes 8267
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6220000
+mean reward (100 episodes) -10.240000
+best mean reward -10.010000
+episodes 8277
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6230000
+mean reward (100 episodes) -10.890000
+best mean reward -10.010000
+episodes 8289
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6240000
+mean reward (100 episodes) -10.990000
+best mean reward -10.010000
+episodes 8299
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6250000
+mean reward (100 episodes) -11.050000
+best mean reward -10.010000
+episodes 8310
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6260000
+mean reward (100 episodes) -11.310000
+best mean reward -10.010000
+episodes 8320
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6270000
+mean reward (100 episodes) -11.430000
+best mean reward -10.010000
+episodes 8331
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6280000
+mean reward (100 episodes) -11.240000
+best mean reward -10.010000
+episodes 8341
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6290000
+mean reward (100 episodes) -11.110000
+best mean reward -10.010000
+episodes 8351
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6300000
+mean reward (100 episodes) -11.100000
+best mean reward -10.010000
+episodes 8360
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6310000
+mean reward (100 episodes) -11.010000
+best mean reward -10.010000
+episodes 8372
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6320000
+mean reward (100 episodes) -11.040000
+best mean reward -10.010000
+episodes 8384
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6330000
+mean reward (100 episodes) -11.060000
+best mean reward -10.010000
+episodes 8395
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6340000
+mean reward (100 episodes) -11.140000
+best mean reward -10.010000
+episodes 8405
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6350000
+mean reward (100 episodes) -11.130000
+best mean reward -10.010000
+episodes 8416
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6360000
+mean reward (100 episodes) -11.310000
+best mean reward -10.010000
+episodes 8427
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6370000
+mean reward (100 episodes) -11.240000
+best mean reward -10.010000
+episodes 8437
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6380000
+mean reward (100 episodes) -11.700000
+best mean reward -10.010000
+episodes 8447
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6390000
+mean reward (100 episodes) -11.770000
+best mean reward -10.010000
+episodes 8457
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6400000
+mean reward (100 episodes) -11.790000
+best mean reward -10.010000
+episodes 8467
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6410000
+mean reward (100 episodes) -11.550000
+best mean reward -10.010000
+episodes 8477
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6420000
+mean reward (100 episodes) -11.220000
+best mean reward -10.010000
+episodes 8488
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6430000
+mean reward (100 episodes) -11.040000
+best mean reward -10.010000
+episodes 8497
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6440000
+mean reward (100 episodes) -10.950000
+best mean reward -10.010000
+episodes 8508
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6450000
+mean reward (100 episodes) -10.970000
+best mean reward -10.010000
+episodes 8518
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6460000
+mean reward (100 episodes) -10.660000
+best mean reward -10.010000
+episodes 8529
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6470000
+mean reward (100 episodes) -10.680000
+best mean reward -10.010000
+episodes 8540
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6480000
+mean reward (100 episodes) -10.720000
+best mean reward -10.010000
+episodes 8551
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6490000
+mean reward (100 episodes) -10.860000
+best mean reward -10.010000
+episodes 8562
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6500000
+mean reward (100 episodes) -10.610000
+best mean reward -10.010000
+episodes 8572
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6510000
+mean reward (100 episodes) -10.860000
+best mean reward -10.010000
+episodes 8584
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6520000
+mean reward (100 episodes) -10.530000
+best mean reward -10.010000
+episodes 8594
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6530000
+mean reward (100 episodes) -10.590000
+best mean reward -10.010000
+episodes 8604
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6540000
+mean reward (100 episodes) -10.690000
+best mean reward -10.010000
+episodes 8615
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6550000
+mean reward (100 episodes) -10.760000
+best mean reward -10.010000
+episodes 8625
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6560000
+mean reward (100 episodes) -10.740000
+best mean reward -10.010000
+episodes 8636
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6570000
+mean reward (100 episodes) -10.460000
+best mean reward -10.010000
+episodes 8645
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6580000
+mean reward (100 episodes) -10.480000
+best mean reward -10.010000
+episodes 8656
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6590000
+mean reward (100 episodes) -10.400000
+best mean reward -10.010000
+episodes 8667
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6600000
+mean reward (100 episodes) -10.510000
+best mean reward -10.010000
+episodes 8677
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6610000
+mean reward (100 episodes) -10.680000
+best mean reward -10.010000
+episodes 8688
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6620000
+mean reward (100 episodes) -10.750000
+best mean reward -10.010000
+episodes 8697
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6630000
+mean reward (100 episodes) -10.650000
+best mean reward -10.010000
+episodes 8708
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6640000
+mean reward (100 episodes) -10.520000
+best mean reward -10.010000
+episodes 8718
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6650000
+mean reward (100 episodes) -10.360000
+best mean reward -10.010000
+episodes 8728
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6660000
+mean reward (100 episodes) -10.300000
+best mean reward -10.010000
+episodes 8738
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6670000
+mean reward (100 episodes) -10.220000
+best mean reward -10.010000
+episodes 8748
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6680000
+mean reward (100 episodes) -10.160000
+best mean reward -10.010000
+episodes 8758
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6690000
+mean reward (100 episodes) -10.350000
+best mean reward -10.010000
+episodes 8769
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6700000
+mean reward (100 episodes) -10.270000
+best mean reward -10.010000
+episodes 8780
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6710000
+mean reward (100 episodes) -10.130000
+best mean reward -10.010000
+episodes 8791
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6720000
+mean reward (100 episodes) -10.040000
+best mean reward -10.000000
+episodes 8802
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6730000
+mean reward (100 episodes) -10.060000
+best mean reward -10.000000
+episodes 8813
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6740000
+mean reward (100 episodes) -10.110000
+best mean reward -10.000000
+episodes 8823
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6750000
+mean reward (100 episodes) -9.950000
+best mean reward -9.870000
+episodes 8834
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6760000
+mean reward (100 episodes) -9.990000
+best mean reward -9.870000
+episodes 8844
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6770000
+mean reward (100 episodes) -9.860000
+best mean reward -9.850000
+episodes 8854
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6780000
+mean reward (100 episodes) -9.860000
+best mean reward -9.750000
+episodes 8865
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6790000
+mean reward (100 episodes) -9.790000
+best mean reward -9.520000
+episodes 8875
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6800000
+mean reward (100 episodes) -9.760000
+best mean reward -9.520000
+episodes 8886
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6810000
+mean reward (100 episodes) -9.860000
+best mean reward -9.520000
+episodes 8897
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6820000
+mean reward (100 episodes) -9.600000
+best mean reward -9.520000
+episodes 8907
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6830000
+mean reward (100 episodes) -9.670000
+best mean reward -9.520000
+episodes 8918
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6840000
+mean reward (100 episodes) -9.880000
+best mean reward -9.520000
+episodes 8928
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6850000
+mean reward (100 episodes) -10.040000
+best mean reward -9.520000
+episodes 8939
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6860000
+mean reward (100 episodes) -10.580000
+best mean reward -9.520000
+episodes 8951
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6870000
+mean reward (100 episodes) -10.750000
+best mean reward -9.520000
+episodes 8963
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6880000
+mean reward (100 episodes) -10.770000
+best mean reward -9.520000
+episodes 8974
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6890000
+mean reward (100 episodes) -10.780000
+best mean reward -9.520000
+episodes 8985
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6900000
+mean reward (100 episodes) -11.010000
+best mean reward -9.520000
+episodes 8997
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6910000
+mean reward (100 episodes) -11.600000
+best mean reward -9.520000
+episodes 9010
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6920000
+mean reward (100 episodes) -11.520000
+best mean reward -9.520000
+episodes 9021
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6930000
+mean reward (100 episodes) -11.580000
+best mean reward -9.520000
+episodes 9032
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6940000
+mean reward (100 episodes) -11.660000
+best mean reward -9.520000
+episodes 9043
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6950000
+mean reward (100 episodes) -11.400000
+best mean reward -9.520000
+episodes 9053
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6960000
+mean reward (100 episodes) -11.330000
+best mean reward -9.520000
+episodes 9065
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6970000
+mean reward (100 episodes) -11.500000
+best mean reward -9.520000
+episodes 9076
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6980000
+mean reward (100 episodes) -11.450000
+best mean reward -9.520000
+episodes 9086
+exploration 0.010000
+learning_rate 0.000500
+Timestep 6990000
+mean reward (100 episodes) -11.120000
+best mean reward -9.520000
+episodes 9097
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7000000
+mean reward (100 episodes) -10.920000
+best mean reward -9.520000
+episodes 9106
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7010000
+mean reward (100 episodes) -10.780000
+best mean reward -9.520000
+episodes 9116
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7020000
+mean reward (100 episodes) -10.680000
+best mean reward -9.520000
+episodes 9127
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7030000
+mean reward (100 episodes) -10.410000
+best mean reward -9.520000
+episodes 9138
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7040000
+mean reward (100 episodes) -10.280000
+best mean reward -9.520000
+episodes 9147
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7050000
+mean reward (100 episodes) -10.430000
+best mean reward -9.520000
+episodes 9158
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7060000
+mean reward (100 episodes) -10.290000
+best mean reward -9.520000
+episodes 9168
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7070000
+mean reward (100 episodes) -10.340000
+best mean reward -9.520000
+episodes 9179
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7080000
+mean reward (100 episodes) -10.600000
+best mean reward -9.520000
+episodes 9190
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7090000
+mean reward (100 episodes) -10.500000
+best mean reward -9.520000
+episodes 9200
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7100000
+mean reward (100 episodes) -10.840000
+best mean reward -9.520000
+episodes 9210
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7110000
+mean reward (100 episodes) -10.990000
+best mean reward -9.520000
+episodes 9222
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7120000
+mean reward (100 episodes) -11.170000
+best mean reward -9.520000
+episodes 9233
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7130000
+mean reward (100 episodes) -11.680000
+best mean reward -9.520000
+episodes 9245
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7140000
+mean reward (100 episodes) -11.440000
+best mean reward -9.520000
+episodes 9254
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7150000
+mean reward (100 episodes) -11.550000
+best mean reward -9.520000
+episodes 9265
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7160000
+mean reward (100 episodes) -11.530000
+best mean reward -9.520000
+episodes 9275
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7170000
+mean reward (100 episodes) -11.500000
+best mean reward -9.520000
+episodes 9287
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7180000
+mean reward (100 episodes) -11.580000
+best mean reward -9.520000
+episodes 9299
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7190000
+mean reward (100 episodes) -11.060000
+best mean reward -9.520000
+episodes 9310
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7200000
+mean reward (100 episodes) -10.970000
+best mean reward -9.520000
+episodes 9320
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7210000
+mean reward (100 episodes) -10.800000
+best mean reward -9.520000
+episodes 9330
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7220000
+mean reward (100 episodes) -10.590000
+best mean reward -9.520000
+episodes 9340
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7230000
+mean reward (100 episodes) -10.990000
+best mean reward -9.520000
+episodes 9353
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7240000
+mean reward (100 episodes) -10.780000
+best mean reward -9.520000
+episodes 9365
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7250000
+mean reward (100 episodes) -10.540000
+best mean reward -9.520000
+episodes 9375
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7260000
+mean reward (100 episodes) -10.170000
+best mean reward -9.520000
+episodes 9384
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7270000
+mean reward (100 episodes) -9.960000
+best mean reward -9.520000
+episodes 9394
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7280000
+mean reward (100 episodes) -10.060000
+best mean reward -9.520000
+episodes 9405
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7290000
+mean reward (100 episodes) -10.370000
+best mean reward -9.520000
+episodes 9417
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7300000
+mean reward (100 episodes) -10.670000
+best mean reward -9.520000
+episodes 9428
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7310000
+mean reward (100 episodes) -10.570000
+best mean reward -9.520000
+episodes 9438
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7320000
+mean reward (100 episodes) -10.050000
+best mean reward -9.520000
+episodes 9448
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7330000
+mean reward (100 episodes) -10.060000
+best mean reward -9.520000
+episodes 9458
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7340000
+mean reward (100 episodes) -10.080000
+best mean reward -9.520000
+episodes 9469
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7350000
+mean reward (100 episodes) -9.980000
+best mean reward -9.520000
+episodes 9479
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7360000
+mean reward (100 episodes) -10.380000
+best mean reward -9.520000
+episodes 9490
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7370000
+mean reward (100 episodes) -10.530000
+best mean reward -9.520000
+episodes 9500
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7380000
+mean reward (100 episodes) -10.740000
+best mean reward -9.520000
+episodes 9512
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7390000
+mean reward (100 episodes) -10.640000
+best mean reward -9.520000
+episodes 9523
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7400000
+mean reward (100 episodes) -10.560000
+best mean reward -9.520000
+episodes 9534
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7410000
+mean reward (100 episodes) -10.730000
+best mean reward -9.520000
+episodes 9545
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7420000
+mean reward (100 episodes) -10.880000
+best mean reward -9.520000
+episodes 9556
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7430000
+mean reward (100 episodes) -11.250000
+best mean reward -9.520000
+episodes 9568
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7440000
+mean reward (100 episodes) -11.490000
+best mean reward -9.520000
+episodes 9579
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7450000
+mean reward (100 episodes) -11.580000
+best mean reward -9.520000
+episodes 9589
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7460000
+mean reward (100 episodes) -11.750000
+best mean reward -9.520000
+episodes 9600
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7470000
+mean reward (100 episodes) -11.550000
+best mean reward -9.520000
+episodes 9610
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7480000
+mean reward (100 episodes) -11.700000
+best mean reward -9.520000
+episodes 9621
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7490000
+mean reward (100 episodes) -11.910000
+best mean reward -9.520000
+episodes 9632
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7500000
+mean reward (100 episodes) -11.740000
+best mean reward -9.520000
+episodes 9642
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7510000
+mean reward (100 episodes) -11.800000
+best mean reward -9.520000
+episodes 9653
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7520000
+mean reward (100 episodes) -11.280000
+best mean reward -9.520000
+episodes 9663
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7530000
+mean reward (100 episodes) -11.380000
+best mean reward -9.520000
+episodes 9675
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7540000
+mean reward (100 episodes) -11.310000
+best mean reward -9.520000
+episodes 9685
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7550000
+mean reward (100 episodes) -11.130000
+best mean reward -9.520000
+episodes 9696
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7560000
+mean reward (100 episodes) -11.110000
+best mean reward -9.520000
+episodes 9708
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7570000
+mean reward (100 episodes) -10.860000
+best mean reward -9.520000
+episodes 9719
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7580000
+mean reward (100 episodes) -10.690000
+best mean reward -9.520000
+episodes 9729
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7590000
+mean reward (100 episodes) -10.670000
+best mean reward -9.520000
+episodes 9741
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7600000
+mean reward (100 episodes) -10.970000
+best mean reward -9.520000
+episodes 9753
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7610000
+mean reward (100 episodes) -11.460000
+best mean reward -9.520000
+episodes 9765
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7620000
+mean reward (100 episodes) -11.460000
+best mean reward -9.520000
+episodes 9777
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7630000
+mean reward (100 episodes) -11.640000
+best mean reward -9.520000
+episodes 9788
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7640000
+mean reward (100 episodes) -11.450000
+best mean reward -9.520000
+episodes 9799
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7650000
+mean reward (100 episodes) -11.010000
+best mean reward -9.520000
+episodes 9809
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7660000
+mean reward (100 episodes) -10.930000
+best mean reward -9.520000
+episodes 9820
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7670000
+mean reward (100 episodes) -11.060000
+best mean reward -9.520000
+episodes 9831
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7680000
+mean reward (100 episodes) -11.170000
+best mean reward -9.520000
+episodes 9842
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7690000
+mean reward (100 episodes) -10.860000
+best mean reward -9.520000
+episodes 9854
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7700000
+mean reward (100 episodes) -10.560000
+best mean reward -9.520000
+episodes 9865
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7710000
+mean reward (100 episodes) -10.240000
+best mean reward -9.520000
+episodes 9875
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7720000
+mean reward (100 episodes) -10.300000
+best mean reward -9.520000
+episodes 9885
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7730000
+mean reward (100 episodes) -10.580000
+best mean reward -9.520000
+episodes 9896
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7740000
+mean reward (100 episodes) -10.850000
+best mean reward -9.520000
+episodes 9907
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7750000
+mean reward (100 episodes) -10.900000
+best mean reward -9.520000
+episodes 9918
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7760000
+mean reward (100 episodes) -11.150000
+best mean reward -9.520000
+episodes 9929
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7770000
+mean reward (100 episodes) -11.060000
+best mean reward -9.520000
+episodes 9940
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7780000
+mean reward (100 episodes) -11.270000
+best mean reward -9.520000
+episodes 9952
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7790000
+mean reward (100 episodes) -11.210000
+best mean reward -9.520000
+episodes 9962
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7800000
+mean reward (100 episodes) -11.320000
+best mean reward -9.520000
+episodes 9973
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7810000
+mean reward (100 episodes) -11.300000
+best mean reward -9.520000
+episodes 9984
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7820000
+mean reward (100 episodes) -11.280000
+best mean reward -9.520000
+episodes 9995
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7830000
+mean reward (100 episodes) -11.540000
+best mean reward -9.520000
+episodes 10007
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7840000
+mean reward (100 episodes) -11.200000
+best mean reward -9.520000
+episodes 10018
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7850000
+mean reward (100 episodes) -10.890000
+best mean reward -9.520000
+episodes 10030
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7860000
+mean reward (100 episodes) -10.800000
+best mean reward -9.520000
+episodes 10041
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7870000
+mean reward (100 episodes) -10.620000
+best mean reward -9.520000
+episodes 10050
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7880000
+mean reward (100 episodes) -10.910000
+best mean reward -9.520000
+episodes 10060
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7890000
+mean reward (100 episodes) -10.820000
+best mean reward -9.520000
+episodes 10071
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7900000
+mean reward (100 episodes) -11.070000
+best mean reward -9.520000
+episodes 10082
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7910000
+mean reward (100 episodes) -10.930000
+best mean reward -9.520000
+episodes 10092
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7920000
+mean reward (100 episodes) -10.730000
+best mean reward -9.520000
+episodes 10104
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7930000
+mean reward (100 episodes) -10.730000
+best mean reward -9.520000
+episodes 10114
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7940000
+mean reward (100 episodes) -10.630000
+best mean reward -9.520000
+episodes 10125
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7950000
+mean reward (100 episodes) -10.790000
+best mean reward -9.520000
+episodes 10136
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7960000
+mean reward (100 episodes) -10.380000
+best mean reward -9.520000
+episodes 10146
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7970000
+mean reward (100 episodes) -10.360000
+best mean reward -9.520000
+episodes 10157
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7980000
+mean reward (100 episodes) -10.210000
+best mean reward -9.520000
+episodes 10167
+exploration 0.010000
+learning_rate 0.000500
+Timestep 7990000
+mean reward (100 episodes) -9.760000
+best mean reward -9.520000
+episodes 10178
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8000000
+mean reward (100 episodes) -9.950000
+best mean reward -9.520000
+episodes 10190
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8010000
+mean reward (100 episodes) -9.870000
+best mean reward -9.520000
+episodes 10200
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8020000
+mean reward (100 episodes) -9.510000
+best mean reward -9.510000
+episodes 10209
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8030000
+mean reward (100 episodes) -9.860000
+best mean reward -9.510000
+episodes 10220
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8040000
+mean reward (100 episodes) -9.990000
+best mean reward -9.510000
+episodes 10231
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8050000
+mean reward (100 episodes) -10.320000
+best mean reward -9.510000
+episodes 10242
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8060000
+mean reward (100 episodes) -10.570000
+best mean reward -9.510000
+episodes 10253
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8070000
+mean reward (100 episodes) -10.980000
+best mean reward -9.510000
+episodes 10264
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8080000
+mean reward (100 episodes) -11.180000
+best mean reward -9.510000
+episodes 10275
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8090000
+mean reward (100 episodes) -11.000000
+best mean reward -9.510000
+episodes 10285
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8100000
+mean reward (100 episodes) -11.080000
+best mean reward -9.510000
+episodes 10296
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8110000
+mean reward (100 episodes) -11.810000
+best mean reward -9.510000
+episodes 10309
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8120000
+mean reward (100 episodes) -11.760000
+best mean reward -9.510000
+episodes 10319
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8130000
+mean reward (100 episodes) -11.740000
+best mean reward -9.510000
+episodes 10330
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8140000
+mean reward (100 episodes) -11.470000
+best mean reward -9.510000
+episodes 10340
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8150000
+mean reward (100 episodes) -11.500000
+best mean reward -9.510000
+episodes 10352
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8160000
+mean reward (100 episodes) -11.330000
+best mean reward -9.510000
+episodes 10362
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8170000
+mean reward (100 episodes) -11.280000
+best mean reward -9.510000
+episodes 10372
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8180000
+mean reward (100 episodes) -11.090000
+best mean reward -9.510000
+episodes 10383
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8190000
+mean reward (100 episodes) -11.340000
+best mean reward -9.510000
+episodes 10394
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8200000
+mean reward (100 episodes) -10.710000
+best mean reward -9.510000
+episodes 10404
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8210000
+mean reward (100 episodes) -10.510000
+best mean reward -9.510000
+episodes 10414
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8220000
+mean reward (100 episodes) -10.540000
+best mean reward -9.510000
+episodes 10425
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8230000
+mean reward (100 episodes) -10.410000
+best mean reward -9.510000
+episodes 10437
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8240000
+mean reward (100 episodes) -10.260000
+best mean reward -9.510000
+episodes 10448
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8250000
+mean reward (100 episodes) -10.280000
+best mean reward -9.510000
+episodes 10458
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8260000
+mean reward (100 episodes) -10.510000
+best mean reward -9.510000
+episodes 10470
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8270000
+mean reward (100 episodes) -10.640000
+best mean reward -9.510000
+episodes 10480
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8280000
+mean reward (100 episodes) -10.530000
+best mean reward -9.510000
+episodes 10491
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8290000
+mean reward (100 episodes) -10.620000
+best mean reward -9.510000
+episodes 10502
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8300000
+mean reward (100 episodes) -10.620000
+best mean reward -9.510000
+episodes 10513
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8310000
+mean reward (100 episodes) -11.170000
+best mean reward -9.510000
+episodes 10526
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8320000
+mean reward (100 episodes) -11.010000
+best mean reward -9.510000
+episodes 10536
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8330000
+mean reward (100 episodes) -10.840000
+best mean reward -9.510000
+episodes 10546
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8340000
+mean reward (100 episodes) -10.570000
+best mean reward -9.510000
+episodes 10556
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8350000
+mean reward (100 episodes) -10.390000
+best mean reward -9.510000
+episodes 10567
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8360000
+mean reward (100 episodes) -10.300000
+best mean reward -9.510000
+episodes 10578
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8370000
+mean reward (100 episodes) -10.050000
+best mean reward -9.510000
+episodes 10589
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8380000
+mean reward (100 episodes) -10.180000
+best mean reward -9.510000
+episodes 10601
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8390000
+mean reward (100 episodes) -10.100000
+best mean reward -9.510000
+episodes 10612
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8400000
+mean reward (100 episodes) -9.600000
+best mean reward -9.510000
+episodes 10624
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8410000
+mean reward (100 episodes) -9.780000
+best mean reward -9.510000
+episodes 10636
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8420000
+mean reward (100 episodes) -10.050000
+best mean reward -9.510000
+episodes 10646
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8430000
+mean reward (100 episodes) -10.590000
+best mean reward -9.510000
+episodes 10659
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8440000
+mean reward (100 episodes) -10.680000
+best mean reward -9.510000
+episodes 10670
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8450000
+mean reward (100 episodes) -11.000000
+best mean reward -9.510000
+episodes 10682
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8460000
+mean reward (100 episodes) -10.800000
+best mean reward -9.510000
+episodes 10692
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8470000
+mean reward (100 episodes) -10.740000
+best mean reward -9.510000
+episodes 10704
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8480000
+mean reward (100 episodes) -10.900000
+best mean reward -9.510000
+episodes 10715
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8490000
+mean reward (100 episodes) -10.880000
+best mean reward -9.510000
+episodes 10726
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8500000
+mean reward (100 episodes) -10.770000
+best mean reward -9.510000
+episodes 10736
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8510000
+mean reward (100 episodes) -10.950000
+best mean reward -9.510000
+episodes 10748
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8520000
+mean reward (100 episodes) -10.620000
+best mean reward -9.510000
+episodes 10759
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8530000
+mean reward (100 episodes) -10.880000
+best mean reward -9.510000
+episodes 10770
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8540000
+mean reward (100 episodes) -10.600000
+best mean reward -9.510000
+episodes 10781
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8550000
+mean reward (100 episodes) -10.690000
+best mean reward -9.510000
+episodes 10791
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8560000
+mean reward (100 episodes) -10.560000
+best mean reward -9.510000
+episodes 10801
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8570000
+mean reward (100 episodes) -10.290000
+best mean reward -9.510000
+episodes 10812
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8580000
+mean reward (100 episodes) -9.980000
+best mean reward -9.510000
+episodes 10823
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8590000
+mean reward (100 episodes) -10.120000
+best mean reward -9.510000
+episodes 10834
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8600000
+mean reward (100 episodes) -10.180000
+best mean reward -9.510000
+episodes 10846
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8610000
+mean reward (100 episodes) -10.510000
+best mean reward -9.510000
+episodes 10858
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8620000
+mean reward (100 episodes) -10.090000
+best mean reward -9.510000
+episodes 10868
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8630000
+mean reward (100 episodes) -10.080000
+best mean reward -9.510000
+episodes 10880
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8640000
+mean reward (100 episodes) -10.000000
+best mean reward -9.510000
+episodes 10889
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8650000
+mean reward (100 episodes) -9.980000
+best mean reward -9.510000
+episodes 10900
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8660000
+mean reward (100 episodes) -9.960000
+best mean reward -9.510000
+episodes 10911
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8670000
+mean reward (100 episodes) -10.300000
+best mean reward -9.510000
+episodes 10923
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8680000
+mean reward (100 episodes) -10.260000
+best mean reward -9.510000
+episodes 10933
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8690000
+mean reward (100 episodes) -9.900000
+best mean reward -9.510000
+episodes 10943
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8700000
+mean reward (100 episodes) -9.380000
+best mean reward -9.380000
+episodes 10953
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8710000
+mean reward (100 episodes) -9.360000
+best mean reward -9.220000
+episodes 10963
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8720000
+mean reward (100 episodes) -9.450000
+best mean reward -9.220000
+episodes 10974
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8730000
+mean reward (100 episodes) -9.740000
+best mean reward -9.220000
+episodes 10986
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8740000
+mean reward (100 episodes) -10.020000
+best mean reward -9.220000
+episodes 10997
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8750000
+mean reward (100 episodes) -10.150000
+best mean reward -9.220000
+episodes 11008
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8760000
+mean reward (100 episodes) -9.790000
+best mean reward -9.220000
+episodes 11019
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8770000
+mean reward (100 episodes) -9.750000
+best mean reward -9.220000
+episodes 11030
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8780000
+mean reward (100 episodes) -10.160000
+best mean reward -9.220000
+episodes 11041
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8790000
+mean reward (100 episodes) -10.400000
+best mean reward -9.220000
+episodes 11052
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8800000
+mean reward (100 episodes) -10.210000
+best mean reward -9.220000
+episodes 11062
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8810000
+mean reward (100 episodes) -10.670000
+best mean reward -9.220000
+episodes 11073
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8820000
+mean reward (100 episodes) -10.690000
+best mean reward -9.220000
+episodes 11084
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8830000
+mean reward (100 episodes) -10.740000
+best mean reward -9.220000
+episodes 11096
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8840000
+mean reward (100 episodes) -10.650000
+best mean reward -9.220000
+episodes 11108
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8850000
+mean reward (100 episodes) -10.880000
+best mean reward -9.220000
+episodes 11119
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8860000
+mean reward (100 episodes) -10.950000
+best mean reward -9.220000
+episodes 11130
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8870000
+mean reward (100 episodes) -10.970000
+best mean reward -9.220000
+episodes 11141
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8880000
+mean reward (100 episodes) -10.900000
+best mean reward -9.220000
+episodes 11152
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8890000
+mean reward (100 episodes) -10.860000
+best mean reward -9.220000
+episodes 11162
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8900000
+mean reward (100 episodes) -10.680000
+best mean reward -9.220000
+episodes 11173
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8910000
+mean reward (100 episodes) -10.770000
+best mean reward -9.220000
+episodes 11187
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8920000
+mean reward (100 episodes) -10.630000
+best mean reward -9.220000
+episodes 11199
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8930000
+mean reward (100 episodes) -11.080000
+best mean reward -9.220000
+episodes 11212
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8940000
+mean reward (100 episodes) -11.070000
+best mean reward -9.220000
+episodes 11221
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8950000
+mean reward (100 episodes) -11.310000
+best mean reward -9.220000
+episodes 11233
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8960000
+mean reward (100 episodes) -11.080000
+best mean reward -9.220000
+episodes 11244
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8970000
+mean reward (100 episodes) -10.990000
+best mean reward -9.220000
+episodes 11254
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8980000
+mean reward (100 episodes) -11.090000
+best mean reward -9.220000
+episodes 11264
+exploration 0.010000
+learning_rate 0.000500
+Timestep 8990000
+mean reward (100 episodes) -10.900000
+best mean reward -9.220000
+episodes 11275
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9000000
+mean reward (100 episodes) -10.820000
+best mean reward -9.220000
+episodes 11287
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9010000
+mean reward (100 episodes) -10.800000
+best mean reward -9.220000
+episodes 11297
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9020000
+mean reward (100 episodes) -10.900000
+best mean reward -9.220000
+episodes 11310
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9030000
+mean reward (100 episodes) -10.880000
+best mean reward -9.220000
+episodes 11320
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9040000
+mean reward (100 episodes) -10.680000
+best mean reward -9.220000
+episodes 11331
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9050000
+mean reward (100 episodes) -10.750000
+best mean reward -9.220000
+episodes 11342
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9060000
+mean reward (100 episodes) -11.080000
+best mean reward -9.220000
+episodes 11354
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9070000
+mean reward (100 episodes) -11.150000
+best mean reward -9.220000
+episodes 11364
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9080000
+mean reward (100 episodes) -11.480000
+best mean reward -9.220000
+episodes 11376
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9090000
+mean reward (100 episodes) -11.260000
+best mean reward -9.220000
+episodes 11386
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9100000
+mean reward (100 episodes) -10.960000
+best mean reward -9.220000
+episodes 11396
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9110000
+mean reward (100 episodes) -10.700000
+best mean reward -9.220000
+episodes 11407
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9120000
+mean reward (100 episodes) -10.430000
+best mean reward -9.220000
+episodes 11418
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9130000
+mean reward (100 episodes) -10.360000
+best mean reward -9.220000
+episodes 11429
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9140000
+mean reward (100 episodes) -10.620000
+best mean reward -9.220000
+episodes 11439
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9150000
+mean reward (100 episodes) -10.470000
+best mean reward -9.220000
+episodes 11449
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9160000
+mean reward (100 episodes) -10.580000
+best mean reward -9.220000
+episodes 11461
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9170000
+mean reward (100 episodes) -10.620000
+best mean reward -9.220000
+episodes 11472
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9180000
+mean reward (100 episodes) -10.550000
+best mean reward -9.220000
+episodes 11483
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9190000
+mean reward (100 episodes) -10.930000
+best mean reward -9.220000
+episodes 11493
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9200000
+mean reward (100 episodes) -11.130000
+best mean reward -9.220000
+episodes 11504
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9210000
+mean reward (100 episodes) -10.940000
+best mean reward -9.220000
+episodes 11514
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9220000
+mean reward (100 episodes) -11.290000
+best mean reward -9.220000
+episodes 11525
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9230000
+mean reward (100 episodes) -11.110000
+best mean reward -9.220000
+episodes 11536
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9240000
+mean reward (100 episodes) -10.920000
+best mean reward -9.220000
+episodes 11547
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9250000
+mean reward (100 episodes) -10.520000
+best mean reward -9.220000
+episodes 11556
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9260000
+mean reward (100 episodes) -10.530000
+best mean reward -9.220000
+episodes 11567
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9270000
+mean reward (100 episodes) -10.710000
+best mean reward -9.220000
+episodes 11579
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9280000
+mean reward (100 episodes) -10.820000
+best mean reward -9.220000
+episodes 11590
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9290000
+mean reward (100 episodes) -10.890000
+best mean reward -9.220000
+episodes 11602
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9300000
+mean reward (100 episodes) -10.880000
+best mean reward -9.220000
+episodes 11612
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9310000
+mean reward (100 episodes) -11.250000
+best mean reward -9.220000
+episodes 11625
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9320000
+mean reward (100 episodes) -11.330000
+best mean reward -9.220000
+episodes 11634
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9330000
+mean reward (100 episodes) -11.320000
+best mean reward -9.220000
+episodes 11644
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9340000
+mean reward (100 episodes) -11.530000
+best mean reward -9.220000
+episodes 11655
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9350000
+mean reward (100 episodes) -11.330000
+best mean reward -9.220000
+episodes 11665
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9360000
+mean reward (100 episodes) -10.900000
+best mean reward -9.220000
+episodes 11675
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9370000
+mean reward (100 episodes) -10.810000
+best mean reward -9.220000
+episodes 11686
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9380000
+mean reward (100 episodes) -10.620000
+best mean reward -9.220000
+episodes 11697
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9390000
+mean reward (100 episodes) -10.460000
+best mean reward -9.220000
+episodes 11707
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9400000
+mean reward (100 episodes) -10.220000
+best mean reward -9.220000
+episodes 11717
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9410000
+mean reward (100 episodes) -9.660000
+best mean reward -9.220000
+episodes 11726
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9420000
+mean reward (100 episodes) -9.600000
+best mean reward -9.220000
+episodes 11736
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9430000
+mean reward (100 episodes) -9.730000
+best mean reward -9.220000
+episodes 11747
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9440000
+mean reward (100 episodes) -9.750000
+best mean reward -9.220000
+episodes 11758
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9450000
+mean reward (100 episodes) -9.960000
+best mean reward -9.220000
+episodes 11768
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9460000
+mean reward (100 episodes) -9.880000
+best mean reward -9.220000
+episodes 11779
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9470000
+mean reward (100 episodes) -9.990000
+best mean reward -9.220000
+episodes 11790
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9480000
+mean reward (100 episodes) -10.190000
+best mean reward -9.220000
+episodes 11801
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9490000
+mean reward (100 episodes) -10.320000
+best mean reward -9.220000
+episodes 11812
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9500000
+mean reward (100 episodes) -10.680000
+best mean reward -9.220000
+episodes 11823
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9510000
+mean reward (100 episodes) -10.830000
+best mean reward -9.220000
+episodes 11834
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9520000
+mean reward (100 episodes) -10.750000
+best mean reward -9.220000
+episodes 11845
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9530000
+mean reward (100 episodes) -11.120000
+best mean reward -9.220000
+episodes 11857
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9540000
+mean reward (100 episodes) -10.910000
+best mean reward -9.220000
+episodes 11867
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9550000
+mean reward (100 episodes) -11.100000
+best mean reward -9.220000
+episodes 11878
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9560000
+mean reward (100 episodes) -11.070000
+best mean reward -9.220000
+episodes 11889
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9570000
+mean reward (100 episodes) -10.930000
+best mean reward -9.220000
+episodes 11899
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9580000
+mean reward (100 episodes) -10.920000
+best mean reward -9.220000
+episodes 11910
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9590000
+mean reward (100 episodes) -11.040000
+best mean reward -9.220000
+episodes 11922
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9600000
+mean reward (100 episodes) -11.010000
+best mean reward -9.220000
+episodes 11932
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9610000
+mean reward (100 episodes) -10.900000
+best mean reward -9.220000
+episodes 11942
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9620000
+mean reward (100 episodes) -10.690000
+best mean reward -9.220000
+episodes 11953
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9630000
+mean reward (100 episodes) -11.060000
+best mean reward -9.220000
+episodes 11965
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9640000
+mean reward (100 episodes) -10.840000
+best mean reward -9.220000
+episodes 11976
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9650000
+mean reward (100 episodes) -11.090000
+best mean reward -9.220000
+episodes 11987
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9660000
+mean reward (100 episodes) -10.960000
+best mean reward -9.220000
+episodes 11998
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9670000
+mean reward (100 episodes) -10.900000
+best mean reward -9.220000
+episodes 12009
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9680000
+mean reward (100 episodes) -10.540000
+best mean reward -9.220000
+episodes 12020
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9690000
+mean reward (100 episodes) -10.600000
+best mean reward -9.220000
+episodes 12031
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9700000
+mean reward (100 episodes) -10.360000
+best mean reward -9.220000
+episodes 12040
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9710000
+mean reward (100 episodes) -10.390000
+best mean reward -9.220000
+episodes 12050
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9720000
+mean reward (100 episodes) -10.210000
+best mean reward -9.220000
+episodes 12061
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9730000
+mean reward (100 episodes) -9.730000
+best mean reward -9.220000
+episodes 12071
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9740000
+mean reward (100 episodes) -10.050000
+best mean reward -9.220000
+episodes 12082
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9750000
+mean reward (100 episodes) -9.760000
+best mean reward -9.220000
+episodes 12092
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9760000
+mean reward (100 episodes) -10.080000
+best mean reward -9.220000
+episodes 12102
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9770000
+mean reward (100 episodes) -9.940000
+best mean reward -9.220000
+episodes 12113
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9780000
+mean reward (100 episodes) -9.450000
+best mean reward -9.220000
+episodes 12123
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9790000
+mean reward (100 episodes) -9.760000
+best mean reward -9.220000
+episodes 12135
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9800000
+mean reward (100 episodes) -9.960000
+best mean reward -9.220000
+episodes 12144
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9810000
+mean reward (100 episodes) -10.070000
+best mean reward -9.220000
+episodes 12156
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9820000
+mean reward (100 episodes) -10.000000
+best mean reward -9.220000
+episodes 12167
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9830000
+mean reward (100 episodes) -10.090000
+best mean reward -9.220000
+episodes 12177
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9840000
+mean reward (100 episodes) -10.060000
+best mean reward -9.220000
+episodes 12188
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9850000
+mean reward (100 episodes) -10.230000
+best mean reward -9.220000
+episodes 12198
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9860000
+mean reward (100 episodes) -9.860000
+best mean reward -9.220000
+episodes 12207
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9870000
+mean reward (100 episodes) -10.030000
+best mean reward -9.220000
+episodes 12217
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9880000
+mean reward (100 episodes) -10.230000
+best mean reward -9.220000
+episodes 12228
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9890000
+mean reward (100 episodes) -9.730000
+best mean reward -9.220000
+episodes 12238
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9900000
+mean reward (100 episodes) -9.750000
+best mean reward -9.220000
+episodes 12248
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9910000
+mean reward (100 episodes) -9.610000
+best mean reward -9.220000
+episodes 12259
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9920000
+mean reward (100 episodes) -9.440000
+best mean reward -9.220000
+episodes 12269
+exploration 0.010000
+learning_rate 0.000500
+Timestep 9930000
+mean reward (100 episodes) -9.400000
+best mean reward -9.220000
+episodes 12279
+exploration 0.010000
+learning_rate 0.000500
