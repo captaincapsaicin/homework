@@ -11,20 +11,42 @@ import copy
 import matplotlib.pyplot as plt
 from cheetah_env import HalfCheetahEnvNew
 
-def sample(env, 
-           controller, 
-           num_paths=10, 
-           horizon=1000, 
+def sample(env,
+           controller,
+           num_paths=10,
+           horizon=1000,
            render=False,
            verbose=False):
     """
-        Write a sampler function which takes in an environment, a controller (either random or the MPC controller), 
-        and returns rollouts by running on the env. 
+        Write a sampler function which takes in an environment, a controller (either random or the MPC controller),
+        and returns rollouts by running on the env.
         Each path can have elements for observations, next_observations, rewards, returns, actions, etc.
     """
     paths = []
-    """ YOUR CODE HERE """
-
+    for i in range(num_paths):
+        path = {'actions': [],
+                'obs': [],
+                'next_obs': [],
+                'reward': []}
+        t = 0
+        done = False
+        obs = env.reset()
+        if render:
+            env.render()
+        while not done and t < horizon:
+            action = controller.get_action(obs)
+            next_obs, reward, done, _ = env.step(action)
+            path['observations'].append(obs)
+            path['next_observations'].append(next_obs)
+            path['actions'].append(action)
+            path['reward'].append(reward)
+            if verbose:
+                print([obs, next_obs, action, reward])
+            if render:
+                env.render()
+            obs = next_obs
+            t += 1
+        paths.append(path)
     return paths
 
 # Utility to compute cost a path for a given cost function
