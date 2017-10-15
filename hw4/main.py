@@ -59,14 +59,14 @@ def compute_normalization(data):
     Return 6 elements: mean of s_t, std of s_t, mean of (s_t+1 - s_t), std of (s_t+1 - s_t), mean of actions, std of actions
     """
     observations = np.array(data['observations'])
-    mean_obs = np.mean(observations)
-    std_obs = np.std(observations)
+    mean_obs = np.mean(observations, axis=0)
+    std_obs = np.std(observations, axis=0)
     next_observations = np.array(data['next_observations'])
-    mean_deltas = np.mean(next_observations - observations)
-    std_deltas = np.std(next_observations - observations)
+    mean_deltas = np.mean(next_observations - observations, axis=0)
+    std_deltas = np.std(next_observations - observations, axis=0)
     actions = np.array(data['actions'])
-    mean_action = np.mean(actions)
-    std_action = np.std(actions)
+    mean_action = np.mean(actions, axis=0)
+    std_action = np.std(actions, axis=0)
     return mean_obs, std_obs, mean_deltas, std_deltas, mean_action, std_action
 
 
@@ -197,8 +197,10 @@ def train(env,
 
     #========================================================
     #
-    # Take multiple iterations of onpolicy aggregation at each iteration refitting the dynamics model to current dataset and then taking onpolicy samples and aggregating to the dataset.
-    # Note: You don't need to use a mixing ratio in this assignment for new and old data as described in https://arxiv.org/abs/1708.02596
+    # Take multiple iterations of onpolicy aggregation at each iteration refitting the dynamics model
+    # to current dataset and then taking onpolicy samples and aggregating to the dataset.
+    # Note: You don't need to use a mixing ratio in this assignment for new and old data as described
+    # in https://arxiv.org/abs/1708.02596
     #
     for itr in range(onpol_iters):
         """ YOUR CODE HERE """

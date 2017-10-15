@@ -22,11 +22,11 @@ class RandomController(Controller):
 
 class MPCcontroller(Controller):
 	""" Controller built using the MPC method outlined in https://arxiv.org/abs/1708.02596 """
-	def __init__(self, 
-				 env, 
-				 dyn_model, 
-				 horizon=5, 
-				 cost_fn=None, 
+	def __init__(self,
+				 env,
+				 dyn_model,
+				 horizon=5,
+				 cost_fn=None,
 				 num_simulated_paths=10,
 				 ):
 		self.env = env
