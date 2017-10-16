@@ -34,6 +34,8 @@ class MPCcontroller(Controller):
 		self.horizon = horizon
 		self.cost_fn = cost_fn
 		self.num_simulated_paths = num_simulated_paths
+		self.low = self.env.action_space.low
+		self.high = self.env.action_space.high
 
 	def get_action(self, state):
 		""" YOUR CODE HERE """
@@ -42,8 +44,9 @@ class MPCcontroller(Controller):
 		states_per_step = []
 		actions_per_step = []
 		next_states_per_step = []
+
 		for i in range(self.horizon):
-			actions = np.vstack([self.env.action_space.sample() for i in range(self.num_simulated_paths)])
+			actions = np.vstack([np.random.uniform(self.low, self.high) for i in range(self.num_simulated_paths)])
 			next_states = self.dyn_model.predict(states, actions)
 
 			# append to set
