@@ -159,7 +159,7 @@ def train(env,
     random_controller = RandomController(env)
     print('sampling random controller data')
     print(time.time() - start_time)
-    paths = sample(env, random_controller, horizon=env_horizon, render=render, verbose=False)
+    paths = sample(env, random_controller, num_paths=num_paths_random, horizon=env_horizon, render=render, verbose=False)
     data = turn_paths_into_data(paths)
 
     #========================================================
@@ -218,7 +218,7 @@ def train(env,
         """ YOUR CODE HERE """
         print('sampling on-policy data iteration {}'.format(itr))
         print(time.time() - start_time)
-        paths = sample(env, mpc_controller, horizon=mpc_horizon, num_paths=num_paths_onpol, render=render, verbose=False)
+        paths = sample(env, mpc_controller, num_paths=num_paths_onpol, horizon=mpc_horizon, render=render, verbose=False)
         new_data = turn_paths_into_data(paths)
         data['states'] = np.append(data['states'], new_data['states'], axis=0)
         data['actions'] = np.append(data['actions'], new_data['actions'], axis=0)
