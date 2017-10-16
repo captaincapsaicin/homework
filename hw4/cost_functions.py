@@ -2,7 +2,7 @@ import numpy as np
 
 
 #========================================================
-# 
+#
 # Environment-specific cost functions:
 #
 
@@ -51,7 +51,7 @@ def cheetah_cost_fn(state, action, next_state):
     return score
 
 #========================================================
-# 
+#
 # Cost function for a whole trajectory:
 #
 
