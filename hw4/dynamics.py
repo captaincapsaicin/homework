@@ -70,7 +70,7 @@ class NNDynamicsModel():
         # from the dataset each time?
 
         # we will be sampling from these possible indexes
-        indexes_to_sample = xrange(len(data['states']))
+        indexes_to_sample = range(len(data['states']))
         for i in range(self.iterations):
             indexes = random.sample(indexes_to_sample, self.batch_size)
 
