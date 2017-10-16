@@ -77,6 +77,24 @@ def plot_comparison(env, dyn_model):
     """ YOUR CODE HERE """
     pass
 
+def turn_paths_into_data(paths):
+    # pull out tuples of state, action, next_state, reward
+    data = {'actions': [],
+            'states': [],
+            'next_states': [],
+            'rewards': []}
+    for path in paths:
+        for i in range(len(path)):
+            data['states'].append(path['states'][i])
+            data['actions'].append(path['actions'][i])
+            data['next_states'].append(path['next_states'][i])
+            data['rewards'].append(path['rewards'][i])
+    data['states'] = np.array(data['states'])
+    data['actions'] = np.array(data['actions'])
+    data['next_states'] = np.array(data['next_states'])
+    data['rewards'] = np.array(data['rewards'])
+    return data
+
 def train(env,
          cost_fn,
          logdir=None,
@@ -139,22 +157,8 @@ def train(env,
     # model.
 
     random_controller = RandomController(env)
-    paths = sample(env, random_controller)
-    # pull out tuples of state, action, next_state, reward
-    data = {'actions': [],
-            'states': [],
-            'next_states': [],
-            'rewards': []}
-    for path in paths:
-        for i in range(len(path)):
-            data['states'].append(path['states'][i])
-            data['actions'].append(path['actions'][i])
-            data['next_states'].append(path['next_states'][i])
-            data['rewards'].append(path['rewards'][i])
-    data['states'] = np.array(data['states'])
-    data['actions'] = np.array(data['actions'])
-    data['next_states'] = np.array(data['next_states'])
-    data['rewards'] = np.array(data['rewards'])
+    paths = sample(env, random_controller, horizon=env_horizon, render=render, verbvose=verbose)
+    data = turn_paths_into_data(paths)
 
     #========================================================
     #
@@ -207,8 +211,13 @@ def train(env,
     #
     for itr in range(onpol_iters):
         """ YOUR CODE HERE """
-
-
+        paths = sample(env, mpc_controller, num_paths=num_paths_onpol, render=render, verbvose=verbose)
+        new_data = turn_paths_into_data(paths)
+        data['states'] = np.append(data['states'], new_data['states'], axis=0)
+        data['actions'] = np.append(data['actions'], new_data['actions'], axis=0)
+        data['next_states'] = np.append(data['next_states'], new_data['next_states'], axis=0)
+        data['rewards'] = np.append(data['rewards'], new_data['next_rewards'], axis=0)
+        dyn_model.fit(data)
 
         # LOGGING
         # Statistics for performance of MPC policy using
