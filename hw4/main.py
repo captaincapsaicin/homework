@@ -157,7 +157,7 @@ def train(env,
     # model.
 
     random_controller = RandomController(env)
-    paths = sample(env, random_controller, horizon=env_horizon, render=render, verbose=verbose)
+    paths = sample(env, random_controller, horizon=env_horizon, render=render, verbose=False)
     data = turn_paths_into_data(paths)
 
     #========================================================
@@ -211,7 +211,7 @@ def train(env,
     #
     for itr in range(onpol_iters):
         """ YOUR CODE HERE """
-        paths = sample(env, mpc_controller, num_paths=num_paths_onpol, render=render, verbose=verbose)
+        paths = sample(env, mpc_controller, num_paths=num_paths_onpol, render=render, verbose=False)
         new_data = turn_paths_into_data(paths)
         data['states'] = np.append(data['states'], new_data['states'], axis=0)
         data['actions'] = np.append(data['actions'], new_data['actions'], axis=0)
