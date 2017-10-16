@@ -25,8 +25,8 @@ def sample(env,
     paths = []
     for i in range(num_paths):
         path = {'actions': [],
-                'observations': [],
-                'next_observations': [],
+                'states': [],
+                'next_states': [],
                 'reward': []}
         t = 0
         done = False
@@ -36,8 +36,8 @@ def sample(env,
         while not done and t < horizon:
             action = controller.get_action(obs)
             next_obs, reward, done, _ = env.step(action)
-            path['observations'].append(obs)
-            path['next_observations'].append(next_obs)
+            path['states'].append(obs)
+            path['next_states'].append(next_obs)
             path['actions'].append(action)
             path['reward'].append(reward)
             if verbose:
@@ -51,20 +51,20 @@ def sample(env,
 
 # Utility to compute cost a path for a given cost function
 def path_cost(cost_fn, path):
-    return trajectory_cost_fn(cost_fn, path['observations'], path['actions'], path['next_observations'])
+    return trajectory_cost_fn(cost_fn, path['states'], path['actions'], path['next_states'])
 
 def compute_normalization(data):
     """
     Write a function to take in a dataset and compute the means, and stds.
     Return 6 elements: mean of s_t, std of s_t, mean of (s_t+1 - s_t), std of (s_t+1 - s_t), mean of actions, std of actions
     """
-    observations = np.array(data['observations'])
+    observations = data['states']
     mean_obs = np.mean(observations, axis=0)
     std_obs = np.std(observations, axis=0)
-    next_observations = np.array(data['next_observations'])
+    next_observations = data['next_states']
     mean_deltas = np.mean(next_observations - observations, axis=0)
     std_deltas = np.std(next_observations - observations, axis=0)
-    actions = np.array(data['actions'])
+    actions = data['actions']
     mean_action = np.mean(actions, axis=0)
     std_action = np.std(actions, axis=0)
     return mean_obs, std_obs, mean_deltas, std_deltas, mean_action, std_action
@@ -142,16 +142,19 @@ def train(env,
     paths = sample(env, random_controller)
     # pull out tuples of state, action, next_state, reward
     data = {'actions': [],
-            'observations': [],
-            'next_observations': [],
-            'reward': []}
+            'states': [],
+            'next_states': [],
+            'rewards': []}
     for path in paths:
         for i in range(len(path)):
-            data['observations'].append(path['observations'][i])
+            data['states'].append(path['states'][i])
             data['actions'].append(path['actions'][i])
-            data['next_observations'].append(path['next_observations'][i])
-            data['reward'].append(path['reward'][i])
-
+            data['next_states'].append(path['next_states'][i])
+            data['rewards'].append(path['rewards'][i])
+    data['states'] = np.array(data['states'])
+    data['actions'] = np.array(data['actions'])
+    data['next_states'] = np.array(data['next_states'])
+    data['rewards'] = np.array(data['rewards'])
 
     #========================================================
     #
