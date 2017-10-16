@@ -216,7 +216,8 @@ def train(env,
         data['states'] = np.append(data['states'], new_data['states'], axis=0)
         data['actions'] = np.append(data['actions'], new_data['actions'], axis=0)
         data['next_states'] = np.append(data['next_states'], new_data['next_states'], axis=0)
-        data['rewards'] = np.append(data['rewards'], new_data['next_rewards'], axis=0)
+        data['rewards'] = np.append(data['rewards'], new_data['rewards'], axis=0)
+
         dyn_model.fit(data)
 
         # LOGGING
