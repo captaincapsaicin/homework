@@ -72,16 +72,16 @@ class NNDynamicsModel():
         # we will be sampling from these possible indexes
         indexes_to_sample = range(len(data['states']))
         for i in range(self.iterations):
-            indexes = random.sample(indexes_to_sample, self.batch_size)
+            indexes = random.choices(indexes_to_sample, k=self.batch_size)
+            states = data['states'].take(indexes, axis=0)
 
-            states = data['states'].take(indexes)
             normalized_states = (states - self.mean_obs) / (self.std_obs + EPSILON)
-            next_states = data['next_states'].take(indexes)
+            next_states = data['next_states'].take(indexes, axis=0)
 
             deltas = next_states - states
             normalized_deltas = (deltas - self.mean_deltas) / (self.std_deltas + EPSILON)
 
-            actions = data['actions'].take(indexes)
+            actions = data['actions'].take(indexes, axis=0)
             normalized_actions = (actions - self.mean_action) / (self.std_action + EPSILON)
 
             input_state_actions = np.hstack((normalized_states, normalized_actions))
