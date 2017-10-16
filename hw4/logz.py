@@ -5,7 +5,7 @@ import json
 Some simple logging functionality, inspired by rllab's logging.
 Assumes that each diagnostic gets logged each iteration
 
-Call logz.configure_output_dir() to start logging to a 
+Call logz.configure_output_dir() to start logging to a
 tab-separated-values file (some_folder_name/log.txt)
 
 To load the learning curves, you can do, for example
@@ -50,6 +50,9 @@ def configure_output_dir(d=None):
     """
     Set output directory to d, or to /tmp/somerandomnumber if d is None
     """
+    G.first_row = True
+    G.log_headers = []
+    G.log_current_row = {}
     G.output_dir = d or "/tmp/experiments/%i"%int(time.time())
     if osp.exists(G.output_dir):
         print("Log dir %s already exists! Delete it first or use a different dir"%G.output_dir)
@@ -75,7 +78,7 @@ def save_params(params):
     with open(osp.join(G.output_dir, "params.json"), 'w') as out:
         out.write(json.dumps(params, separators=(',\n','\t:\t'), sort_keys=True))
 
-def pickle_tf_vars():  
+def pickle_tf_vars():
     """
     Saves tensorflow variables
     Requires them to be initialized first, also a default session must exist
@@ -83,7 +86,7 @@ def pickle_tf_vars():
     _dict = {v.name : v.eval() for v in tf.global_variables()}
     with open(osp.join(G.output_dir, "vars.pkl"), 'wb') as f:
         pickle.dump(_dict, f)
-    
+
 
 def dump_tabular():
     """
