@@ -220,6 +220,8 @@ def train(env,
 
         dyn_model.fit(data)
 
+        costs = [path_cost(cost_fn, path) for path in paths]
+        returns = [sum(path['rewards']) for path in paths]
         # LOGGING
         # Statistics for performance of MPC policy using
         # our learned dynamics model
