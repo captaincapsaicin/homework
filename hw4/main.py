@@ -27,7 +27,7 @@ def sample(env,
         path = {'actions': [],
                 'states': [],
                 'next_states': [],
-                'reward': []}
+                'rewards': []}
         t = 0
         done = False
         obs = env.reset()
@@ -39,7 +39,7 @@ def sample(env,
             path['states'].append(obs)
             path['next_states'].append(next_obs)
             path['actions'].append(action)
-            path['reward'].append(reward)
+            path['rewards'].append(reward)
             if verbose:
                 print([obs, next_obs, action, reward])
             if render:
