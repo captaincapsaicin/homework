@@ -49,13 +49,13 @@ class NNDynamicsModel():
 
         self.observed_deltas_placeholder = tf.placeholder(tf.float32, [None, output_size])
 
-        self.predicted_deltas = build_mlp(input_placeholder,
-                                         output_size,
-                                         scope,
-                                         n_layers=n_layers,
-                                         size=size,
-                                         activation=activation,
-                                         output_activation=output_activation)
+        self.predicted_deltas = build_mlp(self.input_placeholder,
+                                          output_size,
+                                          scope,
+                                          n_layers=n_layers,
+                                          size=size,
+                                          activation=activation,
+                                          output_activation=output_activation)
 
         loss = tf.nn.l2_loss(self.predicted_deltas - self.observed_deltas_placeholder)
         self.update_op = tf.train.AdamOptimizer(learning_rate).minimize(loss)
