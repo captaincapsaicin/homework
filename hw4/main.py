@@ -84,7 +84,7 @@ def turn_paths_into_data(paths):
             'next_states': [],
             'rewards': []}
     for path in paths:
-        for i in range(len(path)):
+        for i in range(len(path['states'])):
             data['states'].append(path['states'][i])
             data['actions'].append(path['actions'][i])
             data['next_states'].append(path['next_states'][i])
