@@ -147,7 +147,7 @@ def train(env,
     n_layers/size/activations   Neural network architecture arguments.
 
     """
-
+    start_time = time.time()
     logz.configure_output_dir(logdir)
 
     #========================================================
@@ -157,6 +157,8 @@ def train(env,
     # model.
 
     random_controller = RandomController(env)
+    print('sampling random controller data')
+    print(time.time() - start_time)
     paths = sample(env, random_controller, horizon=env_horizon, render=render, verbose=False)
     data = turn_paths_into_data(paths)
 
@@ -209,16 +211,22 @@ def train(env,
     # Note: You don't need to use a mixing ratio in this assignment for new and old data as described
     # in https://arxiv.org/abs/1708.02596
     #
+    print('fitting dynamics model to random data')
+    print(time.time() - start_time)
     dyn_model.fit(data)
     for itr in range(onpol_iters):
         """ YOUR CODE HERE """
-        paths = sample(env, mpc_controller, num_paths=num_paths_onpol, render=render, verbose=False)
+        print('sampling on-policy data iteration {}'.format(itr))
+        print(time.time() - start_time)
+        paths = sample(env, mpc_controller, horizon=mpc_horizon, num_paths=num_paths_onpol, render=render, verbose=False)
         new_data = turn_paths_into_data(paths)
         data['states'] = np.append(data['states'], new_data['states'], axis=0)
         data['actions'] = np.append(data['actions'], new_data['actions'], axis=0)
         data['next_states'] = np.append(data['next_states'], new_data['next_states'], axis=0)
         data['rewards'] = np.append(data['rewards'], new_data['rewards'], axis=0)
 
+        print('fitting dynamics model to on policy data')
+        print(time.time() - start_time)
         dyn_model.fit(data)
 
         costs = [path_cost(cost_fn, path) for path in paths]
