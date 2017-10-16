@@ -209,6 +209,7 @@ def train(env,
     # Note: You don't need to use a mixing ratio in this assignment for new and old data as described
     # in https://arxiv.org/abs/1708.02596
     #
+    dyn_model.fit(data)
     for itr in range(onpol_iters):
         """ YOUR CODE HERE """
         paths = sample(env, mpc_controller, num_paths=num_paths_onpol, render=render, verbose=False)
