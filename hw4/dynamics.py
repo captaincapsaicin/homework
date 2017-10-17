@@ -57,8 +57,8 @@ class NNDynamicsModel():
                                           activation=activation,
                                           output_activation=output_activation)
 
-        loss = tf.nn.l2_loss(self.predicted_deltas - self.observed_deltas_placeholder)
-        self.update_op = tf.train.AdamOptimizer(learning_rate).minimize(loss)
+        self.loss = tf.nn.l2_loss(self.predicted_deltas - self.observed_deltas_placeholder)
+        self.update_op = tf.train.AdamOptimizer(learning_rate).minimize(self.loss)
 
     def fit(self, data):
         """
@@ -70,23 +70,25 @@ class NNDynamicsModel():
         # from the dataset each time?
 
         # we will be sampling from these possible indexes
-        indexes_to_sample = range(len(data['states']))
+        # indexes_to_sample = range(len(data['states']))
         for i in range(self.iterations):
-            indexes = random.choices(indexes_to_sample, k=self.batch_size)
-            states = data['states'].take(indexes, axis=0)
+            # indexes = random.choices(indexes_to_sample, k=self.batch_size)
+            states = data['states']
 
             normalized_states = (states - self.mean_obs) / (self.std_obs + EPSILON)
-            next_states = data['next_states'].take(indexes, axis=0)
+            next_states = data['next_states']
 
             deltas = next_states - states
             normalized_deltas = (deltas - self.mean_deltas) / (self.std_deltas + EPSILON)
 
-            actions = data['actions'].take(indexes, axis=0)
+            actions = data['actions']
             normalized_actions = (actions - self.mean_action) / (self.std_action + EPSILON)
 
             input_state_actions = np.hstack((normalized_states, normalized_actions))
             feed_dict = {self.input_placeholder: input_state_actions,
                          self.observed_deltas_placeholder: normalized_deltas}
+            loss = self.loss.eval(feed_dict=feed_dict)
+            print('loss: {}'.format(loss))
             self.update_op.run(feed_dict=feed_dict)
 
 

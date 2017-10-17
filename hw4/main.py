@@ -72,7 +72,8 @@ def compute_normalization(data):
 
 def plot_comparison(env, dyn_model):
     """
-    Write a function to generate plots comparing the behavior of the model predictions for each element of the state to the actual ground truth, using randomly sampled actions.
+    Write a function to generate plots comparing the behavior of the model predictions for each element
+    of the state to the actual ground truth, using randomly sampled actions.
     """
     """ YOUR CODE HERE """
     pass
