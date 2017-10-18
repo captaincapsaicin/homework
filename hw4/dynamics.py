@@ -106,7 +106,10 @@ class NNDynamicsModel():
     def predict(self, states, actions):
         """ Write a function to take in a batch of (unnormalized) states and (unnormalized) actions
         and return the (unnormalized) next states as predicted by using the model """
-        feed_dict = {self.input_placeholder: np.hstack([states, actions])}
+        normalized_states = (states - self.mean_obs) / (self.std_obs + EPSILON)
+        normalized_actions = (actions - self.mean_action) / (self.std_action + EPSILON)
+        feed_dict = {self.input_placeholder: np.hstack([normalized_states, normalized_actions])}
+
         predicted_deltas = self.sess.run(self.predicted_deltas, feed_dict=feed_dict)
         unnormalized_deltas = predicted_deltas * self.std_deltas + self.mean_deltas
         return states + unnormalized_deltas
