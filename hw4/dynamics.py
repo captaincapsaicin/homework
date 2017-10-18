@@ -1,6 +1,7 @@
 import tensorflow as tf
 import numpy as np
 import random
+from itertools import zip_longest
 
 EPSILON = 1e-10
 
@@ -19,6 +20,13 @@ def build_mlp(input_placeholder,
             out = tf.layers.dense(out, size, activation=activation)
         out = tf.layers.dense(out, output_size, activation=output_activation)
     return out
+
+def grouper(iterable, n, fillvalue=None):
+    "Collect data into fixed-length chunks or blocks"
+    # grouper('ABCDEFG', 3, 'x') --> ABC DEF Gxx"
+    args = [iter(iterable)] * n
+    return zip_longest(*args, fillvalue=fillvalue)
+
 
 class NNDynamicsModel():
     def __init__(self,
@@ -70,26 +78,29 @@ class NNDynamicsModel():
         # from the dataset each time?
 
         # we will be sampling from these possible indexes
-        # indexes_to_sample = range(len(data['states']))
+        indexes_to_sample = [i for i in range(len(data['states']))]
         for i in range(self.iterations):
-            # indexes = random.choices(indexes_to_sample, k=self.batch_size)
-            states = data['states']
+            random.shuffle(indexes_to_sample)
+            for indexes in grouper(indexes_to_sample, self.batch_size):
+                # have to filter out None fill values
+                indexes = list(filter(lambda x: x is not None, indexes))
+                states = data['states'].take(indexes, axis=0)
 
-            normalized_states = (states - self.mean_obs) / (self.std_obs + EPSILON)
-            next_states = data['next_states']
+                normalized_states = (states - self.mean_obs) / (self.std_obs + EPSILON)
+                next_states = data['next_states'].take(indexes, axis=0)
 
-            deltas = next_states - states
-            normalized_deltas = (deltas - self.mean_deltas) / (self.std_deltas + EPSILON)
+                deltas = next_states - states
+                normalized_deltas = (deltas - self.mean_deltas) / (self.std_deltas + EPSILON)
 
-            actions = data['actions']
-            normalized_actions = (actions - self.mean_action) / (self.std_action + EPSILON)
+                actions = data['actions'].take(indexes, axis=0)
+                normalized_actions = (actions - self.mean_action) / (self.std_action + EPSILON)
 
-            input_state_actions = np.hstack((normalized_states, normalized_actions))
-            feed_dict = {self.input_placeholder: input_state_actions,
-                         self.observed_deltas_placeholder: normalized_deltas}
-            loss = self.loss.eval(feed_dict=feed_dict)
-            print('loss: {}'.format(loss))
-            self.update_op.run(feed_dict=feed_dict)
+                input_state_actions = np.hstack((normalized_states, normalized_actions))
+                feed_dict = {self.input_placeholder: input_state_actions,
+                             self.observed_deltas_placeholder: normalized_deltas}
+                self.update_op.run(feed_dict=feed_dict)
+        loss = self.loss.eval(feed_dict=feed_dict)
+        print('loss: {}'.format(loss))
 
 
     def predict(self, states, actions):
