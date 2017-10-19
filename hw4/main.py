@@ -237,11 +237,12 @@ def train(env,
     # Note: You don't need to use a mixing ratio in this assignment for new and old data as described
     # in https://arxiv.org/abs/1708.02596
     #
-    print('fitting dynamics model to random data')
-    print(time.time() - start_time)
-    dyn_model.fit(data)
     for itr in range(onpol_iters):
         """ YOUR CODE HERE """
+        print('fitting dynamics model')
+        print(time.time() - start_time)
+        dyn_model.fit(data)
+
         print('sampling on-policy data iteration {}'.format(itr))
         print(time.time() - start_time)
         paths = sample(env, mpc_controller, num_paths=num_paths_onpol, horizon=mpc_horizon, render=render, verbose=False)
@@ -250,10 +251,6 @@ def train(env,
         data['actions'] = np.append(data['actions'], new_data['actions'], axis=0)
         data['next_states'] = np.append(data['next_states'], new_data['next_states'], axis=0)
         data['rewards'] = np.append(data['rewards'], new_data['rewards'], axis=0)
-
-        print('fitting dynamics model to on policy data')
-        print(time.time() - start_time)
-        dyn_model.fit(data)
 
         print('testing loss')
         print(plot_comparison(env, dyn_model))

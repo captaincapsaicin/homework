@@ -111,5 +111,5 @@ class NNDynamicsModel():
         feed_dict = {self.input_placeholder: input_state_actions}
 
         predicted_deltas = self.sess.run(self.predicted_deltas, feed_dict=feed_dict)
-        unnormalized_deltas = predicted_deltas * self.std_deltas + self.mean_deltas
+        unnormalized_deltas = predicted_deltas * (self.std_deltas + EPSILON) + self.mean_deltas
         return states + unnormalized_deltas
