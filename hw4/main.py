@@ -76,7 +76,32 @@ def plot_comparison(env, dyn_model):
     of the state to the actual ground truth, using randomly sampled actions.
     """
     """ YOUR CODE HERE """
-    pass
+    num_trajectories = 30
+    horizon = 1000
+
+    ac_dim = env.action_space.shape[0]
+    dummy_state = env.reset()
+    state_dim = dummy_state.size
+
+    actions = np.random.uniform(env.action_space.low, env.action_space.high, (horizon, num_trajectories, ac_dim))
+    states = np.zeros((horizon+1, num_trajectories, state_dim))
+
+    for i in range(num_trajectories):
+        init_state = env.reset()
+        states[0,i,:] = init_state
+        for j in range(horizon):
+            next_state, reward, done, _ = env.step(actions[j,i,:])
+            states[j+1,i,:] = next_state
+    curr_states = states[:-1,:,:]
+    next_states = states[1:,:,:]
+    all_curr_states = np.reshape(curr_states, (horizon*num_trajectories, state_dim))
+    all_actions = np.reshape(actions, (horizon*num_trajectories, ac_dim))
+    all_next_states = np.reshape(next_states, (horizon*num_trajectories, state_dim))
+
+    all_next_states_pred = dyn_model.predict(all_curr_states, all_actions)
+    l2_loss = np.linalg.norm(all_next_states - all_next_states_pred, axis=0)
+    average_l2_loss = np.mean(l2_loss)
+    return average_l2_loss
 
 def turn_paths_into_data(paths):
     # pull out tuples of state, action, next_state, reward
@@ -229,6 +254,9 @@ def train(env,
         print('fitting dynamics model to on policy data')
         print(time.time() - start_time)
         dyn_model.fit(data)
+
+        print('testing loss')
+        print(plot_comparison(env, dyn_model))
 
         costs = [path_cost(cost_fn, path) for path in paths]
         returns = [sum(path['rewards']) for path in paths]

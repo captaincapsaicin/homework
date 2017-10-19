@@ -76,7 +76,6 @@ class NNDynamicsModel():
         """YOUR CODE HERE """
         # TODO NTHOMAS - am I running K iterations here of the update op? yeah I guess... And resample
         # from the dataset each time?
-
         # we will be sampling from these possible indexes
         indexes_to_sample = [i for i in range(len(data['states']))]
         for i in range(self.iterations):
@@ -100,7 +99,7 @@ class NNDynamicsModel():
                              self.observed_deltas_placeholder: normalized_deltas}
                 self.update_op.run(feed_dict=feed_dict)
         loss = self.loss.eval(feed_dict=feed_dict)
-        print('loss: {}'.format(loss))
+        print('training loss: {}'.format(loss))
 
 
     def predict(self, states, actions):
@@ -108,7 +107,8 @@ class NNDynamicsModel():
         and return the (unnormalized) next states as predicted by using the model """
         normalized_states = (states - self.mean_obs) / (self.std_obs + EPSILON)
         normalized_actions = (actions - self.mean_action) / (self.std_action + EPSILON)
-        feed_dict = {self.input_placeholder: np.hstack([normalized_states, normalized_actions])}
+        input_state_actions = np.hstack((normalized_states, normalized_actions))
+        feed_dict = {self.input_placeholder: input_state_actions}
 
         predicted_deltas = self.sess.run(self.predicted_deltas, feed_dict=feed_dict)
         unnormalized_deltas = predicted_deltas * self.std_deltas + self.mean_deltas
